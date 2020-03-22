@@ -1,72 +1,72 @@
-influences,isInfluenced,rel,description,listOfTerms,newTerm,comments
-catch.per.unit.effort,commercial.catch,0,increased CPUE leads to increased catch if effort remains stable,catch-per-unit-effort,fishing efficiency,to standardize with other models fishing efficiency may be better term
-regulations,sharks,0,,regulations,,
-sharks,catch.per.unit.effort,0,increased shark populations lead to reduced CPUE due to depredation,sharks,shark abundance,specify aspect of sharks that is driving CPUE
-sharks,charter.CPUE,0,increased shark populations lead to reduced CPUE due to depredation,local business profit,,
-propaganda..,regulations,0,,"propaganda""""",,
-migratory.patterns,local.wahoo.abundance,0,the local abundance of wahoo is affected by their seasonal migrations,migratory patterns,,
-migratory.patterns,local.dolphin.abundance,0,the local abundance of dolphin is affected by their seasonal migrations,range shifts,,
-range.shifts,migratory.patterns,0,large-scale range shifts lead to changing migration patterns; e.g. fish moving further north,tournaments,number of tournaments,qualify which aspect
-sargassum.habitat,local.wahoo.abundance,0,local abundance is determined by Sargassum habitat availability,sargassum habitat,,
-sargassum.habitat,local.dolphin.abundance,0,local abundance is determined by Sargassum habitat availability,local wahoo abundance,,
-accountability,trust.and.buy.in,0,increased accountability leads to more trust and buy-in to management and data collection,accountability,,
-accountability,inability.to.manage,0,,different soc patterns of areas of SE,,
-different.soc.patterns.of.areas.of.SE,lack.of.data.on.private.recreational.catch,0,,trust and buy-in,,
-trust.and.buy.in,community.conflict,0,a lack of trust among managers or community memebers creates conflict,weather,,
-weather,sargassum.habitat,0,,Gulf Stream,Gulf Stream position ,this is likely the aspect of GS that affects the Sargassum
-Gulf.Stream,sargassum.habitat,0,Sargassum habitat is affected by the Gulf Stream,temperature,,
-temperature,sargassum.habitat,0,,no stock assessment,ability to assess stock,take the directionality out of the term
-no.stock.assessment,inability.to.manage,0,a lack of stock assessments for dolphin and wahoo make them challenging to manage,seasonal changes,,
-seasonal.changes,migratory.patterns,0,migrations are affected by seasonal changes; specifically temperature,international effort,,
-international.effort,unreported.catch,0,,unreported catch,,
-international.effort,international.bycatch,0,international fisheries have less stringent regulations and therefore produce more bycatch,international bycatch,bycatch standards,need to split out bycatch with bycatch standards; one affects the resource and the other affects price
-international.effort,import.price,0,with increased effort there is increased supply and the price decreases,import price,,
-international.effort,dolphin.population.abundance,0,international fishing effort has an impact on the overall population abundance,lack of data on private recreational catch,availability of data on private recreational catch,take the directionality out of the term
-unreported.catch,import.price,0,,local dolphin abundance,,
-international.bycatch,import.price,0,the presence of bycatch does not cause the price to be lower; perhaps replace with 'bycatch standards' so that relationship is apparent; lower standards allow cost savings and reduce price,fishing power,,
-import.price,local.business.profit,0,local profits are lower when market prices are reduced by cheap imports,inability to manage,robustness of management,take the directionality out of the term
-lack.of.data.on.private.recreational.catch,accountability,0,lack of data for private rec sector reduces the accountability in the fishery,regulations on bait,,
-local.dolphin.abundance,tournaments,0,local abundance increases opportunity for tournament fishing,social media,,
-local.dolphin.abundance,charter.business,0,local abundance increases opportunity for charter businesses,private recreational effort,,
-local.dolphin.abundance,community.conflict,0,when local abundance is depleted it creates community conflict,charter CPUE,,
-fishing.power,mobility.of.recreational.anglers,0,,charter landings,,
-inability.to.manage,lack.of.regulation,0,,abundance in other regions,,
-regulations.on.bait,catch.per.unit.effort,0,,FL abundance,,
-social.media,private.recreational.effort,0,social media pictures generate interest and increase private rec effort,commercial catch,,
-social.media,charter.business,0,social media pictures generate interest and increase charter business demand,large dolphin local abundance,,
-social.media,community.conflict,0,,economic growth,,
-private.recreational.effort,local.wahoo.abundance,0,increase in private recreational effort results in decreased local wahoo abundance,lack of regulation,,
-private.recreational.effort,local.dolphin.abundance,0,increase in private recreational effort results in decreased local dolphin abundance,mobility of recreational anglers,,
-private.recreational.effort,unreported.sales,0,increase in private recreational effort results in more opportunities for unreported sales,blueline tilefish closure,,
-charter.CPUE,charter.landings,0,an increase in charter fleet CPUE will increase landings if effort is stable,number of council boats,,
-charter.landings,local.dolphin.abundance,0,charter landings have an impact on the local dolphin abundance,regulation level,,
-abundance.in.other.regions,local.dolphin.abundance,0,local dolphin abundance is driven by dolphin migrating from unknown regions within the stock's domain,quality of information,,
-FL.abundance,local.dolphin.abundance,0,local dolphin abundance is driven by dolphin migrating from Florida,bag limits,,
-commercial.catch,local.dolphin.abundance,0,commercial catch has an impact on the local dolphin abundance,demand for charter trips,,
-commercial.catch,seafood.supply,0,an increase in commercial catch increases local seafood supply,charter effort,,
-large.dolphin.local.abundance,local.dolphin.abundance,0,an increase in large dolphin abundance is equivalent to an increase in total abundance,charter business,,
-economic.growth,private.recreational.effort,0,with increased economic growth there is more spending and more recreational effort,community conflict,,
-lack.of.regulation,lack.of.data.on.private.recreational.catch,0,,seafood imports,,
-lack.of.regulation,private.recreational.effort,0,,seafood supply,,
-mobility.of.recreational.anglers,private.recreational.effort,0,greater mobility of recreational anglers (e.g. with trailers) allows for increased private recreational effort,PLL effort,,
-blueline.tilefish.closure,number.of.council.boats,0,with the closure of blueline tilefish fisheries some fishermen have moved to target dolphin,commercial effort (council),,
-number.of.council.boats,commercial.effort..council.,0,as the number of council boats increases the commercial effort will increase,bycatch of sharks etc,,
-regulation.level,number.of.council.boats,0,,coastal development,,
-quality.of.information,regulation.level,0,,gear and hook restrictions,,
-bag.limits,demand.for.charter.trips,0,a reduction in the bag limit may affect demand for charter trips,unreported sales,,
-demand.for.charter.trips,charter.effort,0,lower demand for charter trips would reduce charter effort,tuna availability,,
-charter.effort,charter.landings,0,a reduction in charter effort will reduce charter landings,dolphin population abundance,,
-seafood.imports,seafood.supply,0,increased seafood imports will increase the total seafood supply,PLL catch,,
-PLL.effort,bycatch.of.sharks.etc,0,increased longline effort will increase bycatch of sharks and other species,NA,,
-PLL.effort,PLL.catch,0,increased longline effort will increase the landings,NA,,
-commercial.effort..council.,commercial.catch,0,increased Council boat effort will increase the commercial catch,NA,,
-coastal.development,private.recreational.effort,0,increased coastal development spurs increased private recreational effort,NA,,
-gear.and.hook.restrictions,catch.per.unit.effort,0,,NA,,
-gear.and.hook.restrictions,bycatch.of.sharks.etc,0,,NA,,
-gear.and.hook.restrictions,PLL.catch,0,,NA,,
-tuna.availability,charter.effort,0,the availability of tuna drives the demand for charter effort in this region,NA,,
-tuna.availability,PLL.effort,0,the availability of tuna drives pelagic longlining effort in this region,NA,,
-tuna.availability,commercial.effort..council.,0,the availability of tuna drives Council boat effort in this region,NA,,
-dolphin.population.abundance,abundance.in.other.regions,0,total dolphin population abundance is related to the abundance in unknown subregions,NA,,
-dolphin.population.abundance,FL.abundance,0,total dolphin population abundance is related to the abundance in the Florida subregion,NA,,
-PLL.catch,large.dolphin.local.abundance,0,,NA,,
+influences,isInfluenced,rel,description
+catch.per.unit.effort,commercial.catch,0,increased CPUE leads to increased catch if effort remains stable
+regulations,sharks,0,
+sharks,catch.per.unit.effort,0,increased shark populations lead to reduced CPUE due to depredation
+sharks,charter.CPUE,0,increased shark populations lead to reduced CPUE due to depredation
+propaganda..,regulations,0,
+migratory.patterns,local.wahoo.abundance,0,the local abundance of wahoo is affected by their seasonal migrations
+migratory.patterns,local.dolphin.abundance,0,the local abundance of dolphin is affected by their seasonal migrations
+range.shifts,migratory.patterns,0,large-scale range shifts lead to changing migration patterns; e.g. fish moving further north
+sargassum.habitat,local.wahoo.abundance,0,local abundance is determined by Sargassum habitat availability
+sargassum.habitat,local.dolphin.abundance,0,local abundance is determined by Sargassum habitat availability
+accountability,trust.and.buy.in,0,increased accountability leads to more trust and buy-in to management and data collection
+accountability,inability.to.manage,0,
+different.soc.patterns.of.areas.of.SE,lack.of.data.on.private.recreational.catch,0,
+trust.and.buy.in,community.conflict,0,a lack of trust among managers or community memebers creates conflict
+weather,sargassum.habitat,0,
+Gulf.Stream,sargassum.habitat,0,Sargassum habitat is affected by the Gulf Stream
+temperature,sargassum.habitat,0,
+no.stock.assessment,inability.to.manage,0,a lack of stock assessments for dolphin and wahoo make them challenging to manage
+seasonal.changes,migratory.patterns,0,migrations are affected by seasonal changes; specifically temperature
+international.effort,unreported.catch,0,
+international.effort,international.bycatch,0,international fisheries have less stringent regulations and therefore produce more bycatch
+international.effort,import.price,0,with increased effort there is increased supply and the price decreases
+international.effort,dolphin.population.abundance,0,international fishing effort has an impact on the overall population abundance
+unreported.catch,import.price,0,
+international.bycatch,import.price,0,the presence of bycatch does not cause the price to be lower; perhaps replace with 'bycatch standards' so that relationship is apparent; lower standards allow cost savings and reduce price
+import.price,local.business.profit,0,local profits are lower when market prices are reduced by cheap imports
+lack.of.data.on.private.recreational.catch,accountability,0,lack of data for private rec sector reduces the accountability in the fishery
+local.dolphin.abundance,tournaments,0,local abundance increases opportunity for tournament fishing
+local.dolphin.abundance,charter.business,0,local abundance increases opportunity for charter businesses
+local.dolphin.abundance,community.conflict,0,when local abundance is depleted it creates community conflict
+fishing.power,mobility.of.recreational.anglers,0,
+inability.to.manage,lack.of.regulation,0,
+regulations.on.bait,catch.per.unit.effort,0,
+social.media,private.recreational.effort,0,social media pictures generate interest and increase private rec effort
+social.media,charter.business,0,social media pictures generate interest and increase charter business demand
+social.media,community.conflict,0,
+private.recreational.effort,local.wahoo.abundance,0,increase in private recreational effort results in decreased local wahoo abundance
+private.recreational.effort,local.dolphin.abundance,0,increase in private recreational effort results in decreased local dolphin abundance
+private.recreational.effort,unreported.sales,0,increase in private recreational effort results in more opportunities for unreported sales
+charter.CPUE,charter.landings,0,an increase in charter fleet CPUE will increase landings if effort is stable
+charter.landings,local.dolphin.abundance,0,charter landings have an impact on the local dolphin abundance
+abundance.in.other.regions,local.dolphin.abundance,0,local dolphin abundance is driven by dolphin migrating from unknown regions within the stock's domain
+FL.abundance,local.dolphin.abundance,0,local dolphin abundance is driven by dolphin migrating from Florida
+commercial.catch,local.dolphin.abundance,0,commercial catch has an impact on the local dolphin abundance
+commercial.catch,seafood.supply,0,an increase in commercial catch increases local seafood supply
+large.dolphin.local.abundance,local.dolphin.abundance,0,an increase in large dolphin abundance is equivalent to an increase in total abundance
+economic.growth,private.recreational.effort,0,with increased economic growth there is more spending and more recreational effort
+lack.of.regulation,lack.of.data.on.private.recreational.catch,0,
+lack.of.regulation,private.recreational.effort,0,
+mobility.of.recreational.anglers,private.recreational.effort,0,greater mobility of recreational anglers (e.g. with trailers) allows for increased private recreational effort
+blueline.tilefish.closure,number.of.council.boats,0,with the closure of blueline tilefish fisheries some fishermen have moved to target dolphin
+number.of.council.boats,commercial.effort..council.,0,as the number of council boats increases the commercial effort will increase
+regulation.level,number.of.council.boats,0,
+quality.of.information,regulation.level,0,
+bag.limits,demand.for.charter.trips,0,a reduction in the bag limit may affect demand for charter trips
+demand.for.charter.trips,charter.effort,0,lower demand for charter trips would reduce charter effort
+charter.effort,charter.landings,0,a reduction in charter effort will reduce charter landings
+seafood.imports,seafood.supply,0,increased seafood imports will increase the total seafood supply
+PLL.effort,bycatch.of.sharks.etc,0,increased longline effort will increase bycatch of sharks and other species
+PLL.effort,PLL.catch,0,increased longline effort will increase the landings
+commercial.effort..council.,commercial.catch,0,increased Council boat effort will increase the commercial catch
+coastal.development,private.recreational.effort,0,increased coastal development spurs increased private recreational effort
+gear.and.hook.restrictions,catch.per.unit.effort,0,
+gear.and.hook.restrictions,bycatch.of.sharks.etc,0,
+gear.and.hook.restrictions,PLL.catch,0,
+tuna.availability,charter.effort,0,the availability of tuna drives the demand for charter effort in this region
+tuna.availability,PLL.effort,0,the availability of tuna drives pelagic longlining effort in this region
+tuna.availability,commercial.effort..council.,0,the availability of tuna drives Council boat effort in this region
+dolphin.population.abundance,abundance.in.other.regions,0,total dolphin population abundance is related to the abundance in unknown subregions
+dolphin.population.abundance,FL.abundance,0,total dolphin population abundance is related to the abundance in the Florida subregion
+PLL.catch,large.dolphin.local.abundance,0,
