@@ -16,7 +16,10 @@
 rm(list=ls())
 setwd("C:/Users/mandy.karnauskas/Desktop/participatory_workshops/model_processing")
 
-loc <- "VirginiaBeach"                                                        # select workshop location
+#loc <- "VirginiaBeach"                                                        # select workshop location
+#loc <- "Beaufort" 
+loc <- "Wanchese" 
+
 m <- read.table(paste0(loc, "_matrix.csv"), header=T, sep=",", row.names=1)   # specify matrix
 
 d <- data.frame(matrix(, nrow=0, ncol=3))                                     # empty dataframe to be filled
@@ -34,6 +37,10 @@ d$newTerm <- ""
 d$comments <- ""
 
 write.table(d, file=paste0(loc, "_relationships.csv"), append=F, quote=F, row.names=F, col.names=T, sep=",")
+
+#############################################################################
+# Step 3. Standardize names across matrices and combine
+
 
 
 

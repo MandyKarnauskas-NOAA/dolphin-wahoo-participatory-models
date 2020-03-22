@@ -1,0 +1,45 @@
+#######################################################
+#
+# CHANGE LOG
+# MODIFICATIONS MADE TO RAW CONCEPTUAL MODELS DURING INPUT TO MENTAL MODELER
+# M. KARNAUSKAS 22 MAR 2020
+#
+#######################################################
+############        Beaufort model       ##############
+
+- bycatch of billfish, turtles, related to commercial effort, NOT number of longline fishermen
+- dolphin/wahoo catchability submodel was not related to anything in larger model; inserted linkage to landings because they are a function of both effort and catchability
+- original model had link from recreational landings to recreational effort; this is wrong and relationship should be inverted
+- factors influencing recreational landings were unclear; put in linkages coming from "recreational effort" and "range of fishing" 
+- unclear if there was a linkage from "recreational landings" to "ability to catch dolphin/wahoo throughout the year"?  left out for now
+- single linkages from charter demand --> overall NC charter industry --> economic impact.  changed the latter two to "economic impact of NC charter industry"
+- should "profits" be linked to "economic impact of NC charter industry?" 
+- "access to fish" post-it was left unlinked to model
+- infrastructure to support fishing" also left unlinked to model
+
+#######################################################
+############        Wanchese model       ##############
+
+- model originally had sargassum --> wahoo abundance --> range shifts --> local abundance; this is wrong.  
+  solution: local abundance should be a function of stock abundance, migration patterns, and local effort
+- also originally had FL abundance and other regional abundance; these were not connected to international effort
+  solution: make a population-level abundance box which is then broken down into regions; international effort linked to overall population abundance
+- range shifts were overlaying migratory patterns; changed so that migration is a function of both seasonal and range shifts
+- PLL effort was going directly into local dolphin abundance and also commercial catch; took out linkage to abundance and changed to "PLL catch"
+- demand for charter trips was not linked to anything; link to charter effort
+- seafood imports should be linked to import price or local business profit? 
+- changed tournaments to be influenced by "local abundance" rather than total population abundance 
+- removed linkage from "trust/buy-in" to "charter business" as this did not seem to make sense
+
+#######################################################
+#########        Virginia Beach model       ###########
+
+- remove link from availability of dolphin to landings -- is this correct?  
+  solution: availability of dolphin --> fishing efficiency --> landings
+- put in extra link from charter trips --> landings, now charter trips --> charter landings --> total local dolphin landings
+- reversed arrow on desirability for eating --> landings (not landings driving desireability for eating as in original model
+- changed tuna/marlin fishing --> charter demand to tuna/marlin fishing --> consumer demand
+- Note: could probably get rid of "consumer demand" and combine consumer/charter demand since they are basically equal
+- broke landings down into private and charter landings
+- link from private landings to total landings was missing
+- (lack of) commercial fishing effort was not connected; linked to total landings

@@ -37,7 +37,7 @@ private.angler.effort,private.landings,0,landings from private anglers increase 
 distance.from.fish,private.angler.effort,0,in some locations along the coast the dolphin are only available further offshore and this is a limiting factor for some private anglers,NA,,
 weather,private.angler.effort,0,bad weather makes it difficult to go fishing and reduces private angler effort,NA,,
 desirability.for.eating,consumer.satisfaction,0,catching dolphin contributes to consumer satisfaction because they are a highly desireable meat fish,NA,,
-desirability.for.eating,total.local.dolphin.landings,NA,,NA,,changed to NA because I think this is erroneous - desireability leads to increased effort but not landings? 
+desirability.for.eating,total.local.dolphin.landings,NA,changed to NA because I think this is erroneous - desireability leads to increased effort but not landings? ,NA,,
 number.of.charter.trips,charter.landings,0,the charter landings increase as the total number of trips increases,NA,,
 concentration.of.dolphin,commercial.fishing.effort,0,in some areas dolphin do not occur in sufficient concentrations for them to be targeted by commercial fisheries,NA,,
 shark.abundance,commercial.fishing.effort,0,high abundance of sharks makes it impractical to fish for dolphin commercially in some areas,NA,,
