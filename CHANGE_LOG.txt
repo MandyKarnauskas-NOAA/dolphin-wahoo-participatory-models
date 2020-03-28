@@ -30,6 +30,9 @@
 - seafood imports should be linked to import price or local business profit? 
 - changed tournaments to be influenced by "local abundance" rather than total population abundance 
 - removed linkage from "trust/buy-in" to "charter business" as this did not seem to make sense
+- create link from lack of data to inability to manage
+- fishing power linked to effort instead of mobility
+- add link from large dolphin abundance to charter demand
 
 #######################################################
 #########        Virginia Beach model       ###########

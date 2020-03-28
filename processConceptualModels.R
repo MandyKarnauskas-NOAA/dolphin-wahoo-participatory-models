@@ -32,16 +32,78 @@ names(d) <- c("influences", "isInfluenced", "rel")
 head(d)                                                                       # list of relationships
 
 d$description <- ""                                                           # add other columns for next manual step
-d$listOfTerms <- c(rownames(m), rep(NA, (nrow(d) - nrow(m))))
-d$newTerm <- ""
-d$comments <- ""
 
 write.table(d, file=paste0(loc, "_relationships.csv"), append=F, quote=F, row.names=F, col.names=T, sep=",")
 
+d1 <- data.frame(rownames(m))
+names(d1) <- "listOfTerms"
+d1$newTerm <- ""
+d1$comments <- ""
+
+#write.table(d1, file=paste0(loc, "_terms.csv"), append=T, quote=F, row.names=F, col.names=T, sep=",")
 #############################################################################
-# Step 3. Standardize names across matrices and combine
 
+#############################################################################
+# Step 3. Fill out description column of the relationships_edited.csv
+#  (manual process using notes and transcripts)
+#  check conceptual models and update any linkages necessary
+#############################################################################
 
+#############################################################################
+# Step 4. Merge edited mental models with relationships_edited.csv
 
+rm(list=ls())
+setwd("C:/Users/mandy.karnauskas/Desktop/participatory_workshops/model_processing")
 
+# select workshop location
+
+#loc <- "Beaufort" 
+#loc <- "Wanchese" 
+loc <- "VirginiaBeach" 
+
+m <- read.delim(paste0(loc, "_relationships.csv"), header=T, sep=",")   # specify matrix
+me <- read.delim(paste0(loc, "_relationships_edited.csv"), header=T, sep=",")   # specify matrix
+
+dim(m)
+dim(me)
+
+me$ref <- paste0(me$influences, me$isInfluenced)
+m$ref <- paste0(m$influences, m$isInfluenced)
+
+m1 <- merge(m, me, by="ref", all.x=TRUE)
+dim(m1)
+
+m1 <- m1[c(2, 3, 4, 9)]
+names(m1) <- c("influences", "isInfluenced", "rel", "description")
+
+write.table(m1, file=paste0(loc, "_relationships_edited.csv"), append=F, quote=F, row.names=F, col.names=T, sep=",")
+
+#############################################################################
+
+#############################################################################
+# Step 5. Create list of terms
+
+rm(list=ls())
+setwd("C:/Users/mandy.karnauskas/Desktop/participatory_workshops/model_processing")
+
+w1 <- read.table("Beaufort_matrix.csv", header=T, sep=",", row.names=1)       # specify matrix
+w2 <- read.table("Wanchese_matrix.csv", header=T, sep=",", row.names=1)       # specify matrix
+w3 <- read.table("VirginiaBeach_matrix.csv", header=T, sep=",", row.names=1)       # specify matrix
+
+d <- data.frame(rbind(cbind(rownames(w1), "BFT"), cbind(rownames(w2), "WAN"), cbind(rownames(w3), "VB")))
+d <- cbind(d, "", "", "", "", "")
+names(d) <- c("term", "wkshp", "V1", "V2", "V3", "V4", "V5")
+d$V1 <- as.character(d$V1)
+d$V2 <- as.character(d$V2)
+d$V3 <- as.character(d$V3)
+d$V4 <- as.character(d$V4)
+d$V5 <- as.character(d$V5)
+
+for (i in 1:nrow(d)) { 
+  txt <- unlist(strsplit(as.character(d$term)[i], " "))
+  d[i, 3:(length(txt)+2)] <- txt } 
+
+write.table(d, file="all_terms.csv", append=F, quote=F, row.names=F, col.names=T, sep=",")
+
+##########################################################################
 
