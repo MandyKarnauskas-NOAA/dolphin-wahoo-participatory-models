@@ -91,17 +91,9 @@ w2 <- read.table("Wanchese_matrix.csv", header=T, sep=",", row.names=1)       # 
 w3 <- read.table("VirginiaBeach_matrix.csv", header=T, sep=",", row.names=1)       # specify matrix
 
 d <- data.frame(rbind(cbind(rownames(w1), "BFT"), cbind(rownames(w2), "WAN"), cbind(rownames(w3), "VB")))
-d <- cbind(d, "", "", "", "", "")
-names(d) <- c("term", "wkshp", "V1", "V2", "V3", "V4", "V5")
-d$V1 <- as.character(d$V1)
-d$V2 <- as.character(d$V2)
-d$V3 <- as.character(d$V3)
-d$V4 <- as.character(d$V4)
-d$V5 <- as.character(d$V5)
-
-for (i in 1:nrow(d)) { 
-  txt <- unlist(strsplit(as.character(d$term)[i], " "))
-  d[i, 3:(length(txt)+2)] <- txt } 
+names(d) <- c("term", "wkshp")
+d$newterm <- ""
+d$notes <- ""
 
 write.table(d, file="all_terms.csv", append=F, quote=F, row.names=F, col.names=T, sep=",")
 
