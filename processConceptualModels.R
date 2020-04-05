@@ -97,5 +97,55 @@ d$notes <- ""
 
 write.table(d, file="all_terms.csv", append=F, quote=F, row.names=F, col.names=T, sep=",")
 
-##########################################################################
+#############################################################################
+
+#############################################################################
+# Step 6. Standardize list of terms
+
+# manual step - save "all_terms.csv" as "all_terms_edited.csv"
+# make any necessary changes to address three issues:  
+
+# (1) standardized wording for interchangeable terms 
+#     (e.g. "catch" vs. "landings", "consumer" vs. "customer", "angler" vs. "fisherman", "CPUE" vs. "fishing efficiency")
+#
+# (2) remove directionality from any terms 
+#     (e.g. "lack of regulations" --> "level of regulation", "no stock assessment" --> "ability to assess", "lack of data" --> "availability of data")
+#
+# (3) make vague terms quantifiable 
+#     (e.g., "tournaments" --> "number of tournaments", "wind" --> "wind strength") 
+# 
+# save final as "all_terms_edited.csv" 
+#
+#############################################################################
+
+#############################################################################
+# Step 7. Replace terms in original matrices
+
+rm(list=ls())
+
+#install.packages("stringr")
+library("stringr")
+setwd("C:/Users/mandy.karnauskas/Desktop/participatory_workshops/model_processing")
+
+m <- read.delim("Beaufort.mmp", header=F)
+m[] <- lapply(m, as.character)
+
+d <- read.table("all_terms_edited.csv", header=T, sep=",")
+d1 <- d[which(d$wkshp == "BFT"),]
+
+lis <- grep("<name ><![CDATA", m[,], fixed=T)
+for (i in lis)  { 
+    k <- which(str_detect(m[i,], as.character(d1$term), negate = FALSE) == TRUE)
+    if (sum(str_detect(m[i,], as.character(d1$term), negate = FALSE)) == 1) {
+    m[i,] <- str_replace(m[i,], as.character(d1$term[k]), as.character(d1$allnewterms[k]))   
+                }
+}
+
+output.file <- file("Beaufort_newTerms.mmp", "wb")
+write.table(m, row.names = FALSE, col.names = FALSE, file = output.file, 
+            quote = FALSE, append = TRUE, sep = "")
+close(output.file)
+
+
+
 
