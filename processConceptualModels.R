@@ -122,7 +122,26 @@ write.table(d, file="all_terms.csv", append=F, quote=F, row.names=F, col.names=T
 # Step 7. Replace terms in original matrices
 
 rm(list=ls())
+options( warn = 2 )
+setwd("C:/Users/mandy.karnauskas/Desktop/participatory_workshops/model_processing")
 
+d <- read.table("all_terms_edited.csv", header=T, sep=",", stringsAsFactors = F)
+
+sites <- c("Beaufort", "Wanchese", "VirginiaBeach")                                 # select workshop location
+
+for (loc in sites) {    
+  m <- read.table(paste0(loc, "_matrix.csv"), header=F, sep=",", stringsAsFactors = F)   # specify matrix
+    
+    for (i in 2:length(m$V1))  {   m$V1[i] <- d$allnewterms[min(which(m$V1[i] == d$term))]  }
+    for (i in 2:length(m[1,]))  {   m[1,i] <- d$allnewterms[min(which(m[1,i] == d$term))]  }
+
+  write.table(m, file=paste0(loc, "_matrix_newterms.csv"), append=F, quote=F, row.names=F, col.names=F, sep=",")
+}
+
+
+
+
+#######  code below doesn't work - Mental Modeler cannot read the .mmp  #########
 #install.packages("stringr")
 library("stringr")
 setwd("C:/Users/mandy.karnauskas/Desktop/participatory_workshops/model_processing")
@@ -145,7 +164,7 @@ output.file <- file("Beaufort_newTerms.mmp", "wb")
 write.table(m, row.names = FALSE, col.names = FALSE, file = output.file, 
             quote = FALSE, append = TRUE, sep = "")
 close(output.file)
-
+########################### end of code that doesn't work ####################
 
 
 
