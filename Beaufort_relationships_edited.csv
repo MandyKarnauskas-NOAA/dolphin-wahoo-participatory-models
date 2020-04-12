@@ -1,59 +1,59 @@
 influences,isInfluenced,rel,description
-ability.to.catch.dolphin.and.wahoo.through.year,customer.satisfaction,0,a reduced ability to catch dolphin and wahoo throughout the year leads to reduced customer satisfaction
-ability.to.catch.dolphin.and.wahoo.through.year,effort.shift.to.trigger.and.beeliner,0,a reduced ability to catch dolphin and wahoo throughout the year leads to effort shifts to other species such as trigger and beeliners
-availability.of.bait.fish,dolphin.catchability,0,concentrations of bait attract dolphin and make them more available to the fishery
-availability.of.bait.fish,wahoo.catchability,0,concentrations of bait attract wahoo and make them more available to the fishery
-availability.of.info...social.media,recreational.fishing.effort.on.dolphin.wahoo,0,more attention to the fishery and advertising increases interest and effort
-availability.of.info...social.media,risk,0,increased info available on social media reduces risk of not catching fish
-availability.of.third.party.booking,profits,0,an increase in the availability of third party booking services will reduce profits
-coastal.development,number.of.local.fishermen,0,increased coastal development and infrastructure leads to increased numbers of local fishermen
-commercial.fishing.effort,bycatch.of.billfish..turtle..dolphins,0,increase longline effort increases bycatch of billfish and protected species such as turtles
-commercial.fishing.effort,local.dolphin.and.wahoo.abundance,0,increased commercial fishing effort causes a decrease in local abundance of dolphin and wahoo
-cost.of.bait,profits,0,an increase in the cost of bait will reduce profits
-currents,presence.of.large.sargassum.mats,0,currents are responsible for aggregating the sargassum
-customer.satisfaction,demand.for.charter.trips,0,increased customer satisfaction drives increased demand for charter trips
-demand.for.charter.trips,economic.impact.of.NC.charter.industry,0,increasing demand for charter trips increases the economic impact of the NC charter industry
-demand.for.charter.trips,profits,0,increasing demand for charter trips increases profits
-demand.for.charter.trips,recreational.fishing.effort.on.dolphin.wahoo,0,an increase in the demand for charter trips causes an increase in recreational effort
-displacement.from.other.fisheries,number.of.longline.fishermen,0,entry into longline fishery is driven by displacement from other fisheries that have become unprofitable
-dolphin.catchability,recreational.landings,0,increased catchability leads to increased landings assuming stable effort
-economy,demand.for.charter.trips,0,a strong economy leads to more spending and increased demand for charter trips
-economy,number.of.recreational.fishermen,0,a strong economy leads to more spending and an increase in recreational fishermen
-fishing.effort.Gulf.of.Guinea,YFT.population.size,0,international fishing effort has decreased population abundance of yellowfin tuna
-fuel.price,profits,0,increased fuel prices will decrease charter profits
-fuel.price,recreational.fishing.effort.on.dolphin.wahoo,0,increased fuel prices will decrease recreational offshore fishing effort because it is expensive to go offshore
-Gulf.Stream.eddies,temperature.breaks,0,Gulf Stream eddies structure the frontal zones where temperature breaks occur
+ability to catch dolphin and wahoo through year,customer satisfaction,0,a reduced ability to catch dolphin and wahoo throughout the year leads to reduced customer satisfaction
+ability to catch dolphin and wahoo through year,effort shift to trigger and beeliner,0,a reduced ability to catch dolphin and wahoo throughout the year leads to effort shifts to other species such as trigger and beeliners
+availability of bait fish,dolphin catchability,0,concentrations of bait attract dolphin and make them more available to the fishery
+availability of bait fish,wahoo catchability,0,concentrations of bait attract wahoo and make them more available to the fishery
+availability of info social media,recreational fishing effort on dolphin and wahoo,0,more attention to the fishery and advertising increases interest and effort
+availability of info social media,risk,0,increased info available on social media reduces risk of not catching fish
+availability of third party booking,profits,0,an increase in the availability of third party booking services will reduce profits
+coastal development,number of local fishermen,0,increased coastal development and infrastructure leads to increased numbers of local fishermen
+commercial fishing effort,bycatch of billfish turtle dolphins,0,increase longline effort increases bycatch of billfish and protected species such as turtles
+commercial fishing effort,local dolphin and wahoo abundance,0,increased commercial fishing effort causes a decrease in local abundance of dolphin and wahoo
+cost of bait,profits,0,an increase in the cost of bait will reduce profits
+currents,presence of large sargassum mats,0,currents are responsible for aggregating the sargassum
+customer satisfaction,demand for charter trips,0,increased customer satisfaction drives increased demand for charter trips
+demand for charter trips,economic impact of NC charter industry,0,increasing demand for charter trips increases the economic impact of the NC charter industry
+demand for charter trips,profits,0,increasing demand for charter trips increases profits
+demand for charter trips,recreational fishing effort on dolphin and wahoo,0,an increase in the demand for charter trips causes an increase in recreational effort
+displacement from other fisheries,number of longline fishermen,0,entry into longline fishery is driven by displacement from other fisheries that have become unprofitable
+dolphin catchability,recreational landings,0,increased catchability leads to increased landings assuming stable effort
+economy,demand for charter trips,0,a strong economy leads to more spending and increased demand for charter trips
+economy,number of recreational fishermen,0,a strong economy leads to more spending and an increase in recreational fishermen
+fishing effort Gulf of Guinea,YFT population size,0,international fishing effort has decreased population abundance of yellowfin tuna
+fuel price,profits,0,increased fuel prices will decrease charter profits
+fuel price,recreational fishing effort on dolphin and wahoo,0,increased fuel prices will decrease recreational offshore fishing effort because it is expensive to go offshore
+Gulf Stream eddies,temperature breaks,0,Gulf Stream eddies structure the frontal zones where temperature breaks occur
 hurricanes,profits,0,hurricanes can have a negative influence on profits over short time scales
-international.supply,price.of.dolphin,0,international supply of dolphin affects local market price
-level.of.regulations,number.of.longline.fishermen,0,the open access nature of the dolphin longline fishery has facilitated entry
-low.entry.costs,number.of.longline.fishermen,0,low entry costs into fishery drives an increase in number of fishermen
-number.of.local.fishermen,recreational.fishing.effort.on.dolphin.wahoo,0,an increase in the number of local fishermen causes an increase in recreational effort
-number.of.longline.fishermen,commercial.fishing.effort,0,an increase in the number of fishermen will increase effort
-number.of.recreational.fishermen,range.of.recreational.fishing,0,fishermen are going further to get away from the crowds created by greater numbers of fishermen
-number.of.recreational.fishermen,recreational.fishing.effort.on.dolphin.wahoo,0,as the number of recreational fishermen increases effort also increases
-presence.of.large.sargassum.mats,availability.of.bait.fish,0,bait fish are found under sargassum mats
-presence.of.large.sargassum.mats,dolphin.catchability,1,dolphin are found under sargassum mats and other floating objects
-presence.of.large.sargassum.mats,wahoo.catchability,0.28,wahoo are found under sargassum mats and other floating objects
-price.of.dolphin,number.of.longline.fishermen,0,an increased market price makes the fishery more profitable and affects the number of commercial fishermen
-range.of.recreational.fishing,recreational.landings,0,an increased range of recreational fisheries increases the availability and therefore landings of fish
-recreational.fishing.effort.on.dolphin.wahoo,recreational.landings,0,a decrease in recreational fishing effort with reduce landings
-recreational.landings,local.dolphin.and.wahoo.abundance,0,recreational landings affect local abundance of wahoo and dolphin
-risk,range.of.recreational.fishing,0,access to technology allows mediocre fishermen to go out farther (decreasing risk of not catching anything) which increases the range that they can cover
-season.length.for.YFT,recreational.fishing.effort.on.dolphin.wahoo,0,a reduction in season length for yellowfin tuna causes increase in effort on dolphin and wahoo
-seasonal.migration,ability.to.catch.dolphin.and.wahoo.through.year,0,the ability to catch wahoo and dolphin during different parts of the year is affected by their seasonal migrations
-sewage.regulation,coastal.development,0,the strength of the sewage regulations have limited coastal development in some areas
-size.and.bag.limits,ability.to.catch.dolphin.and.wahoo.through.year,0,size and bag limits decrease ability of wahoo and dolphin throuhout the year because different size classes are in abundance in different seasons
-size.and.bag.limits,customer.satisfaction,0,if you don't let customers bring back as much meat it will reduce satisfaction; people want to take full coolers home
-tastiness.and.desirability,price.of.dolphin,0,dolphin fetches a higher price because it is tasty
-technology,dolphin.catchability,0,NA
-technology,range.of.recreational.fishing,0,fishing technology (e.g. engine capacity) increases the range over which recreational fishermen operate
-technology,wahoo.catchability,0,NA
-temperature.breaks,dolphin.catchability,0,dolphin tend to congregate at temperature breaks or frontal zones
-temperature.breaks,wahoo.catchability,0,wahoo tend to congregate at temperature breaks or frontal zones
-tourist.demand.for.meat,customer.satisfaction,0,DOES THIS MAKE SENSE-  MAYBE LINK SHOULD BE REMOVED
-tournaments,economic.impact.of.NC.charter.industry,0,tournaments are important contributors to the local charter economy
-urban.access.to.coast,recreational.fishing.effort.on.dolphin.wahoo,0,increased urban access to the coastline increases recreational fishing effort
-wahoo.catchability,recreational.landings,0,increased catchability leads to increased landings assuming stable effort
-winds,presence.of.large.sargassum.mats,0,strong winds can break up sargassum mats
-winds,recreational.fishing.effort.on.dolphin.wahoo,0,strong winds cause bad fishing weather and reduce recreational fishing effort
-YFT.population.size,season.length.for.YFT,0,reductions in the yellowfin tuna population size lead to reductions in the season length for the species
+international supply,price of dolphin,0,international supply of dolphin affects local market price
+level of regulations,number of longline fishermen,0,the open access nature of the dolphin longline fishery has facilitated entry
+low entry costs,number of longline fishermen,0,low entry costs into fishery drives an increase in number of fishermen
+number of local fishermen,recreational fishing effort on dolphin and wahoo,0,an increase in the number of local fishermen causes an increase in recreational effort
+number of longline fishermen,commercial fishing effort,0,an increase in the number of fishermen will increase effort
+number of recreational fishermen,range of recreational fishing,0,fishermen are going further to get away from the crowds created by greater numbers of fishermen
+number of recreational fishermen,recreational fishing effort on dolphin and wahoo,0,as the number of recreational fishermen increases effort also increases
+presence of large sargassum mats,availability of bait fish,0,bait fish are found under sargassum mats
+presence of large sargassum mats,dolphin catchability,1,dolphin are found under sargassum mats and other floating objects
+presence of large sargassum mats,wahoo catchability,0.28,wahoo are found under sargassum mats and other floating objects
+price of dolphin,number of longline fishermen,0,an increased market price makes the fishery more profitable and affects the number of commercial fishermen
+range of recreational fishing,recreational landings,0,an increased range of recreational fisheries increases the availability and therefore landings of fish
+recreational fishing effort on dolphin and wahoo,recreational landings,0,a decrease in recreational fishing effort with reduce landings
+recreational landings,local dolphin and wahoo abundance,0,recreational landings affect local abundance of wahoo and dolphin
+risk,range of recreational fishing,0,access to technology allows mediocre fishermen to go out farther (decreasing risk of not catching anything) which increases the range that they can cover
+season length for YFT,recreational fishing effort on dolphin and wahoo,0,a reduction in season length for yellowfin tuna causes increase in effort on dolphin and wahoo
+seasonal migration,ability to catch dolphin and wahoo through year,0,the ability to catch wahoo and dolphin during different parts of the year is affected by their seasonal migrations
+sewage regulation,coastal development,0,the strength of the sewage regulations have limited coastal development in some areas
+size and bag limits,ability to catch dolphin and wahoo through year,0,size and bag limits decrease ability of wahoo and dolphin throuhout the year because different size classes are in abundance in different seasons
+size and bag limits,customer satisfaction,0,if you don't let customers bring back as much meat it will reduce satisfaction; people want to take full coolers home
+tastiness and desirability,price of dolphin,0,dolphin fetches a higher price because it is tasty
+technology,dolphin catchability,0,NA
+technology,range of recreational fishing,0,fishing technology (e.g. engine capacity) increases the range over which recreational fishermen operate
+technology,wahoo catchability,0,NA
+temperature breaks,dolphin catchability,0,dolphin tend to congregate at temperature breaks or frontal zones
+temperature breaks,wahoo catchability,0,wahoo tend to congregate at temperature breaks or frontal zones
+tourist demand for meat,customer satisfaction,0,DOES THIS MAKE SENSE-  MAYBE LINK SHOULD BE REMOVED
+tournaments,economic impact of NC charter industry,0,tournaments are important contributors to the local charter economy
+urban access to coast,recreational fishing effort on dolphin and wahoo,0,increased urban access to the coastline increases recreational fishing effort
+wahoo catchability,recreational landings,0,increased catchability leads to increased landings assuming stable effort
+winds,presence of large sargassum mats,0,strong winds can break up sargassum mats
+winds,recreational fishing effort on dolphin and wahoo,0,strong winds cause bad fishing weather and reduce recreational fishing effort
+YFT population size,season length for YFT,0,reductions in the yellowfin tuna population size lead to reductions in the season length for the species

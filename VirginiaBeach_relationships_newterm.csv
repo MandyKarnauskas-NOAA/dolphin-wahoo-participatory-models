@@ -1,0 +1,47 @@
+influences,isInfluenced,rel,description
+local large dolphin abundance,fishing efficiency,NA,dolphin can only be caught when they are locally available at certain times of year
+local small dolphin abundance,fishing efficiency,NA,dolphin can only be caught when they are locally available at certain times of year
+availability of bait fish,local large dolphin abundance,NA,bait concentrations are what draw dolphin to the weedlines
+availability of bait fish,local small dolphin abundance,NA,bait concentrations are what draw dolphin to the weedlines
+demand for charter trips,number of charter trips,NA,the number of charter trips is driven by the demand for charters
+charter landings,social media presence,NA,more charter landings drive more pictures of the catch on social media
+charter landings,total local dolphin landings,NA,total local landings increase as charter landings increase
+charter landings,trip activity excitement,NA,higher catches contribute to the excitement of charter trips
+commercial fishing effort,total local dolphin landings,NA,total local landings increase as the commercial effort increases
+concentration of dolphin,commercial fishing effort,NA,in some areas dolphin do not occur in sufficient concentrations for them to be targeted by commercial fisheries
+demand for charter trips,demand for charter trips,NA,these are essentially the same
+customer satisfaction,demand for charter trips,NA,satisfication with charter trips drives an increase in demand for the activity
+desirability for meat,customer satisfaction,NA,catching dolphin contributes to consumer satisfaction because they are a highly desireable meat fish
+desirability for meat,total local dolphin landings,NA,changed to NA because I think this is erroneous - desireability leads to increased effort but not landings? 
+distance from fish,private recreational effort,NA,in some locations along the coast the dolphin are only available further offshore and this is a limiting factor for some private anglers
+total dolphin population abundance,local large dolphin abundance,NA,locally available dolphin are a part of the larger stock unit of unknown origin
+total dolphin population abundance,local small dolphin abundance,NA,locally available dolphin are a part of the larger stock unit of unknown origin
+Gulf Stream eddies,presence of surface objects,NA,eddy activity drives local convergence zones where floating objects congregate
+fishing efficiency,total local dolphin landings,NA,as fishing efficiency or catchability increases there are more landings per unit effort
+Gulf Stream position ,Gulf Stream eddies,NA,the Gulf Stream produces eddies as it flows and interacts with the ocean floor
+number of charter trips,charter landings,NA,the charter landings increase as the total number of trips increases
+social media presence,customer satisfaction,NA,consumer satisfaction is driven by excitement over pictures of catch which are shared on social media
+social media presence,private recreational effort,NA,when local folks see pictures of charter catches on social media they go out fishing
+private recreational effort,private landings,NA,landings from private anglers increase as the private sector effort increases
+private landings,social media presence,NA,private anglers upload pictures of their catches to social media
+private landings,total local dolphin landings,NA,private angler landings contribute to the total dolphin landings locally
+seasonal migration,local large dolphin abundance,NA,large gaffer dolphin are locally available at certain times of the year as they seasonally migrate
+seasonal migration,local small dolphin abundance,NA,small dolphin are locally available at certain times of the year as they seasonally migrate
+shark abundance,commercial fishing effort,NA,high abundance of sharks makes it impractical to fish for dolphin commercially in some areas
+presence of surface objects,availability of bait fish,NA,bait concentrate around the weedlines and other floating objects
+temperature breaks,presence of surface objects,NA,temperature breaks are also frontal zones that cause floating objects to congregate
+number of tournaments,total local dolphin landings,NA,tournament effort affects the total number of local landings
+number of tournaments,use of circle hooks,NA,tournaments require the use of circle hooks
+trip activity excitement,customer satisfaction,NA,consumer satisfaction is driven by the number and variety of fish caught; often dolphin is an important species within this mix
+tropical weather systems,Gulf Stream position ,NA,tropical weather systems affect the position of the Gulf Stream
+tropical weather systems,water clarity,NA,tropical weather systems affect water conditions and clarity; e g  inshore runoff
+tropical weather systems,wind strength,NA,tropical weather systems affect wind patterns on short temporal scales
+marlin availability,demand for charter trips,NA,the availability of tuna and marlin drives much of the demand for charter trips
+marlin availability,private recreational effort,NA,the availability of tuna and marlin drives much of the private angler effort offshore
+use of circle hooks,fishing efficiency,NA,less likely to retain hooked small dolphin on a circle hook; reduced efficiency
+water clarity,availability of bait fish,NA,bait are not necessarily found on all weed lines; it depends on water quality as well
+temperature,seasonal migration,NA,seasonal migrations of dolphin are largely determined by water temperature
+temperature,marlin availability,NA,tuna and marlin are locally available for capture at certain times of the year driven by water temperature
+weather,private recreational effort,NA,bad weather makes it difficult to go fishing and reduces private angler effort
+wind strength,presence of surface objects,NA,strong winds break up convergence zones and Sargassum lines
+X ,total dolphin population abundance,NA,the factors driving the total dolphin abundance at the population scale are unknown

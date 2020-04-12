@@ -16,37 +16,33 @@
 rm(list=ls())
 setwd("C:/Users/mandy.karnauskas/Desktop/participatory_workshops/model_processing")
 
-#loc <- "VirginiaBeach"                                                        # select workshop location
-#loc <- "Beaufort" 
-loc <- "Wanchese" 
+sites <- c("Beaufort", "Wanchese", "VirginiaBeach") 
 
-m <- read.table(paste0(loc, "_matrix.csv"), header=T, sep=",", row.names=1)   # specify matrix
+for (loc in sites) { 
 
-d <- data.frame(matrix(, nrow=0, ncol=3))                                     # empty dataframe to be filled
-for (i in 1: nrow(m)) {                                                       # parse out list of relationships
-   b <- which(!is.na(m[i,]))
-      d0 <- data.frame(cbind(rep(names(m[i]), length(b)), colnames(m)[b], as.numeric(m[i,b])))
-      d <- rbind(d, d0)  } 
+  m <- read.table(paste0(loc, "_matrix.csv"), header=T, sep=",", row.names=1, check.names=FALSE)   # specify matrix
 
-names(d) <- c("influences", "isInfluenced", "rel")
-head(d)                                                                       # list of relationships
+  d <- data.frame(matrix(, nrow=0, ncol=3))                                     # empty dataframe to be filled
+  for (i in 1: nrow(m)) {                                                       # parse out list of relationships
+    b <- which(!is.na(m[i,]))
+        d0 <- data.frame(cbind(rep(names(m[i]), length(b)), colnames(m)[b], as.numeric(m[i,b])))
+        d <- rbind(d, d0)  } 
 
-d$description <- ""                                                           # add other columns for next manual step
+  names(d) <- c("influences", "isInfluenced", "rel")
+  head(d)                                                                       # list of relationships
 
-write.table(d, file=paste0(loc, "_relationships.csv"), append=F, quote=F, row.names=F, col.names=T, sep=",")
+  d$description <- ""                                                           # add other columns for next manual step
 
-d1 <- data.frame(rownames(m))
-names(d1) <- "listOfTerms"
-d1$newTerm <- ""
-d1$comments <- ""
+  write.table(d, file=paste0(loc, "_relationships.csv"), append=F, quote=F, row.names=F, col.names=T, sep=",")
+}
 
-#write.table(d1, file=paste0(loc, "_terms.csv"), append=T, quote=F, row.names=F, col.names=T, sep=",")
 #############################################################################
 
 #############################################################################
 # Step 3. Fill out description column of the relationships_edited.csv
 #  (manual process using notes and transcripts)
 #  check conceptual models and update any linkages necessary
+#
 #############################################################################
 
 #############################################################################
@@ -55,28 +51,27 @@ d1$comments <- ""
 rm(list=ls())
 setwd("C:/Users/mandy.karnauskas/Desktop/participatory_workshops/model_processing")
 
-# select workshop location
+sites <- c("Beaufort", "Wanchese", "VirginiaBeach")           # select workshop location
 
-#loc <- "Beaufort" 
-#loc <- "Wanchese" 
-loc <- "VirginiaBeach" 
+for (loc in sites) { 
 
-m <- read.delim(paste0(loc, "_relationships.csv"), header=T, sep=",")   # specify matrix
-me <- read.delim(paste0(loc, "_relationships_edited.csv"), header=T, sep=",")   # specify matrix
+  m <- read.delim(paste0(loc, "_relationships.csv"), header=T, sep=",")   # specify matrix
+  me <- read.delim(paste0(loc, "_relationships_edited.csv"), header=T, sep=",")   # specify matrix
+  
+  dim(m)
+  dim(me)
 
-dim(m)
-dim(me)
+  me$ref <- paste0(me$influences, me$isInfluenced)
+  m$ref <- paste0(m$influences, m$isInfluenced)
 
-me$ref <- paste0(me$influences, me$isInfluenced)
-m$ref <- paste0(m$influences, m$isInfluenced)
-
-m1 <- merge(m, me, by="ref", all.x=TRUE)
-dim(m1)
-
-m1 <- m1[c(2, 3, 4, 9)]
-names(m1) <- c("influences", "isInfluenced", "rel", "description")
-
-write.table(m1, file=paste0(loc, "_relationships_edited.csv"), append=F, quote=F, row.names=F, col.names=T, sep=",")
+  m1 <- merge(m, me, by="ref", all.x=TRUE)
+  dim(m1)
+  
+  m1 <- m1[c(2, 3, 4, 9)]
+  names(m1) <- c("influences", "isInfluenced", "rel", "description")
+  
+  write.table(m1, file=paste0(loc, "_relationships_edited.csv"), append=F, quote=F, row.names=F, col.names=T, sep=",")
+}
 
 #############################################################################
 
@@ -119,52 +114,71 @@ write.table(d, file="all_terms.csv", append=F, quote=F, row.names=F, col.names=T
 #############################################################################
 
 #############################################################################
-# Step 7. Replace terms in original matrices
+# Step 7. Update relationship flat file with new terminology
 
 rm(list=ls())
-options( warn = 2 )
-setwd("C:/Users/mandy.karnauskas/Desktop/participatory_workshops/model_processing")
 
 d <- read.table("all_terms_edited.csv", header=T, sep=",", stringsAsFactors = F)
 
-sites <- c("Beaufort", "Wanchese", "VirginiaBeach")                                 # select workshop location
+sites <- c("Beaufort", "Wanchese", "VirginiaBeach") 
 
-for (loc in sites) {    
-  m <- read.table(paste0(loc, "_matrix.csv"), header=F, sep=",", stringsAsFactors = F)   # specify matrix
-    
-    for (i in 2:length(m$V1))  {   m$V1[i] <- d$allnewterms[min(which(m$V1[i] == d$term))]  }
-    for (i in 2:length(m[1,]))  {   m[1,i] <- d$allnewterms[min(which(m[1,i] == d$term))]  }
+for (loc in sites)  { 
+  m <- read.delim(paste0(loc, "_relationships_edited.csv"), header=T, sep=",", stringsAsFactors = F)   # specify matrix
+  m1 <- m
 
-  write.table(m, file=paste0(loc, "_matrix_newterms.csv"), append=F, quote=F, row.names=F, col.names=F, sep=",")
+    for (j in 1: nrow(m1))  {
+      b1 <- which(d$term == m$influences[j])
+      b2 <- which(d$term == m$isInfluenced[j])
+      if (length(b1) >= 1) {  m1$influences[j]   <- d$allnewterms[min(b1)]  }  else { print(paste(loc, "j=", j, m$influences[j])) }
+      if (length(b2) >= 1) {  m1$isInfluenced[j] <- d$allnewterms[min(b2)]  }  else { print(paste(loc, "j=", j, m$isInfluenced[j])) }
+    }
+  m1$rel[which(m1$rel==0)] <- NA
+  write.table(m1, file=paste0(loc, "_relationships_newterm.csv"), append=F, quote=F, row.names=F, col.names=T, sep=",")
 }
 
+#############################################################################
+# Step 8. Specify positive and negaitve relationships
 
+# open "<workshopLocation>_relationships_newterm.csv" files and score "rel" column manually
+# save scored files as "<workshopLocation>_relationships_newterm_scored.csv"
 
+#############################################################################
 
-#######  code below doesn't work - Mental Modeler cannot read the .mmp  #########
-#install.packages("stringr")
-library("stringr")
-setwd("C:/Users/mandy.karnauskas/Desktop/participatory_workshops/model_processing")
+#############################################################################
+# Step 9. Convert back to matrix format
 
-m <- read.delim("Beaufort.mmp", header=F)
-m[] <- lapply(m, as.character)
+rm(list=ls())
 
-d <- read.table("all_terms_edited.csv", header=T, sep=",")
-d1 <- d[which(d$wkshp == "BFT"),]
+sites <- c("Beaufort", "Wanchese", "VirginiaBeach") 
 
-lis <- grep("<name ><![CDATA", m[,], fixed=T)
-for (i in lis)  { 
-    k <- which(str_detect(m[i,], as.character(d1$term), negate = FALSE) == TRUE)
-    if (sum(str_detect(m[i,], as.character(d1$term), negate = FALSE)) == 1) {
-    m[i,] <- str_replace(m[i,], as.character(d1$term[k]), as.character(d1$allnewterms[k]))   
-                }
+for (loc in sites)  { 
+  
+  m <- read.delim(paste0(loc, "_relationships_newterm_scored.csv"), header=T, sep=",", stringsAsFactors = F)   # specify matrix
+
+  lis <- unique(c(m$influences, m$isInfluenced))
+  mat <- matrix(data="", nrow=length(lis), ncol=length(lis))
+
+  for (i in 1:nrow(m)) { 
+    mat[which(lis == m$influences[i]), which(lis == m$isInfluenced[i])] <- m$rel[i]
+  }
+  mat <- cbind(lis, mat)
+  mat <- rbind(c("", lis), mat)
+  
+  write.table(mat, file=paste0(loc, "_matrix_newterms.csv"), append=F, quote=F, sep=",", row.names=F, col.names=F)
 }
 
-output.file <- file("Beaufort_newTerms.mmp", "wb")
-write.table(m, row.names = FALSE, col.names = FALSE, file = output.file, 
-            quote = FALSE, append = TRUE, sep = "")
-close(output.file)
-########################### end of code that doesn't work ####################
+# can input this back into Mental Modeler
+
+#############################################################################
+
+
+
+
+
+
+
+
+
 
 
 

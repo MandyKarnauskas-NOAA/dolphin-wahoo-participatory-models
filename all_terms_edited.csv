@@ -1,8 +1,8 @@
 term,wkshp,newterm,notes,allnewterms
 ability to catch dolphin and wahoo through year,BFT,,,ability to catch dolphin and wahoo through year
 availability of bait fish,BFT,,,availability of bait fish
-availability of info - social media,BFT,social media presence,use single standard term,social media presence
-availability of third-party booking,BFT,,,availability of third-party booking
+availability of info social media,BFT,social media presence,use single standard term,social media presence
+availability of third party booking,BFT,,,availability of third party booking
 bycatch of billfish turtle dolphins,BFT,bycatch of protected species,use single standard term,bycatch of protected species
 coastal development,BFT,,,coastal development
 commercial fishing effort,BFT,,,commercial fishing effort
@@ -31,7 +31,7 @@ presence of large sargassum mats,BFT,presence of Sargassum mats,use single stand
 price of dolphin,BFT,,,price of dolphin
 profits,BFT,,,profits
 range of recreational fishing,BFT,,,range of recreational fishing
-recreational fishing effort on dolphin/wahoo,BFT,recreational fishing effort,make more generalizable but specify if effort is only on one species,recreational fishing effort
+recreational fishing effort on dolphin and wahoo,BFT,recreational fishing effort,make more generalizable but specify if effort is only on one species,recreational fishing effort
 recreational landings,BFT,,,recreational landings
 risk,BFT,risk of low catch,to be more specific in the context in which the term was discussed,risk of low catch
 season length for YFT,BFT,,,season length for YFT
@@ -88,14 +88,14 @@ accountability,WAN,,,accountability
 bag limits,WAN,,,bag limits
 blueline tilefish closure,WAN,,,blueline tilefish closure
 bycatch of sharks etc,WAN,bycatch of sharks,,bycatch of sharks
-catch-per-unit-effort,WAN,fishing efficiency,standardize term used elsewhere,fishing efficiency
+catch per unit effort,WAN,fishing efficiency,standardize term used elsewhere,fishing efficiency
 charter business,WAN,charter business opportunity,to be more specific and quantifiable,charter business opportunity
 charter CPUE,WAN,chater fishing efficiency,use single standard term; replace CPUE with efficiency throughout,chater fishing efficiency
 charter effort,WAN,,,charter effort
 charter landings,WAN,,,charter landings
 coastal development,WAN,,,coastal development
 commercial catch,WAN,commercial landings,use single standard term,commercial landings
-commercial effort (council),WAN,commercial fishing effort,use single standard term,commercial fishing effort
+commercial effort council,WAN,commercial fishing effort,use single standard term,commercial fishing effort
 demand for charter trips,WAN,,,demand for charter trips
 different soc patterns of areas of SE,WAN,,,different soc patterns of areas of SE
 dolphin population abundance,WAN,total dolphin population abundance,clarify that this is stock abundance not local abundance,total dolphin population abundance
@@ -121,7 +121,7 @@ number of council boats,WAN,,,number of council boats
 PLL catch,WAN,PLL landings,use single standard term; replace catch with landings,PLL landings
 PLL effort,WAN,,,PLL effort
 private recreational effort,WAN,,,private recreational effort
-"propaganda""""",WAN,influence of public opinion,better term to describe? ,influence of public opinion
+propaganda,WAN,influence of public opinion,better term to describe? ,influence of public opinion
 quality of information,WAN,,,quality of information
 range shifts,WAN,,,range shifts
 regulation level,WAN,level of regulations,use single standard term,level of regulations
@@ -136,7 +136,7 @@ social media,WAN,social media presence,use single standard term,social media pre
 temperature,WAN,,,temperature
 tournaments,WAN,number of tournaments,qualify which aspect,number of tournaments
 tropical weather systems,WAN,,,tropical weather systems
-trust and buy-in,WAN,trust in management,use single standard term,trust in management
+trust and buy in,WAN,trust in management,use single standard term,trust in management
 tuna availability,WAN,,,tuna availability
 unreported catch,WAN,,,unreported catch
 unreported sales,WAN,,,unreported sales
