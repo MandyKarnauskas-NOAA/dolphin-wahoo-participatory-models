@@ -34,6 +34,14 @@
 - fishing power linked to effort instead of mobility
 - add link from large dolphin abundance to charter demand
 
+changes to PLL/Council after clarification with John/Julia: 
+- separate out PLL CPUE from Council boat CPUE
+   - PLL CPUE is affected by shark abundance, gear and hook restrictions, and regulations on bait
+   - Council CPUE is affected by shark abundance only
+   - both PLL and Council effort are driven by tuna availability; Council effort additionally driven by number of boats which is driven by blueline closures and regulation levels
+   - PLL and Council catch are a function of their respective CPUE and effort
+   - PLL catch affects local large dolphin abundance; Council catch affects all local dolphin abundance
+
 #######################################################
 #########        Virginia Beach model       ###########
 

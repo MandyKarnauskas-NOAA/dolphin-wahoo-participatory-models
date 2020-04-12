@@ -1,144 +1,167 @@
 term,wkshp,newterm,notes,allnewterms
+?,VB,UNKNOWN,question mark gets messed up in formatting,UNKNOWN
 ability to catch dolphin and wahoo through year,BFT,,,ability to catch dolphin and wahoo through year
+abundance in other regions,WAN,total dolphin population abundance,use single standard term,abundance in other regions
+accountability,WAN,,,accountability
 availability of bait fish,BFT,,,availability of bait fish
 availability of info social media,BFT,social media presence,use single standard term,social media presence
-availability of third party booking,BFT,,,availability of third party booking
-bycatch of billfish turtle dolphins,BFT,bycatch of protected species,use single standard term,bycatch of protected species
-coastal development,BFT,,,coastal development
-commercial fishing effort,BFT,,,commercial fishing effort
-cost of bait,BFT,,,cost of bait
-currents,BFT,,,currents
-customer satisfaction,BFT,,,customer satisfaction
-demand for charter trips,BFT,,,demand for charter trips
-displacement from other fisheries,BFT,,,displacement from other fisheries
-dolphin catchability,BFT,,,dolphin catchability
-economic impact of NC charter industry,BFT,,,economic impact of NC charter industry
-economy,BFT,strength of economy,to be more specific and quantifiable,strength of economy
-effort shift to trigger and beeliner,BFT,,,effort shift to trigger and beeliner
-fishing effort Gulf of Guinea,BFT,international fishing effort,make the term more generalizable,international fishing effort
-fuel price,BFT,,,fuel price
-Gulf Stream eddies,BFT,,,Gulf Stream eddies
-hurricanes,BFT,tropical weather systems,term is used elsewhere,tropical weather systems
-international supply,BFT,,,international supply
-level of regulations,BFT,,,level of regulations
-local dolphin and wahoo abundance,BFT,local dolphin abundance,these are separated elsewhere so separate here,local dolphin abundance
-local dolphin and wahoo abundance,BFT,local wahoo abundance,these are separated elsewhere so separate here,local wahoo abundance
-low entry costs,BFT,entry costs,remove directionality,entry costs
-number of local fishermen,BFT,number of private recreational fishermen,local fishermen were referred to as private recreational elsewhere,number of private recreational fishermen
-number of longline fishermen,BFT,,,number of longline fishermen
-number of recreational fishermen,BFT,,,number of recreational fishermen
-presence of large sargassum mats,BFT,presence of Sargassum mats,use single standard term,presence of Sargassum mats
-price of dolphin,BFT,,,price of dolphin
-profits,BFT,,,profits
-range of recreational fishing,BFT,,,range of recreational fishing
-recreational fishing effort on dolphin and wahoo,BFT,recreational fishing effort,make more generalizable but specify if effort is only on one species,recreational fishing effort
-recreational landings,BFT,,,recreational landings
-risk,BFT,risk of low catch,to be more specific in the context in which the term was discussed,risk of low catch
-season length for YFT,BFT,,,season length for YFT
-seasonal migration,BFT,,,seasonal migration
-sewage regulation,BFT,strength of sewage regulations,to be more specific and quantifiable,strength of sewage regulations
-size and bag limits,BFT,bag limits,these are separated elsewhere so separate here,bag limits
-size and bag limits,BFT,size limits,these are separated elsewhere so separate here,size limits
-tastiness and desirability,BFT,desirability for meat,use single standard term,desirability for meat
-technology,BFT,,,technology
-temperature breaks,BFT,,,temperature breaks
-tourist demand for meat,BFT,,,tourist demand for meat
-tournaments,BFT,number of tournaments,to be more specific and quantifiable,number of tournaments
-urban access to coast,BFT,,,urban access to coast
-wahoo catchability,BFT,,,wahoo catchability
-winds,BFT,wind strength,to be more specific and quantifiable,wind strength
-YFT population size,BFT,,,YFT population size
-?,VB,UNKNOWN,question mark gets messed up in formatting,UNKNOWN
 availability of large gaffer dolphin,VB,local large dolphin abundance,use single standard term,local large dolphin abundance
 availability of small dolphin,VB,local small dolphin abundance,use single standard term,local small dolphin abundance
+availability of third party booking,BFT,,,availability of third party booking
+bag limits,WAN,,,bag limits
 bait concentration,VB,availability of bait fish,use single standard term,availability of bait fish
+blueline tilefish closure,WAN,,,blueline tilefish closure
+bycatch of billfish turtle dolphins,BFT,bycatch of protected species,use single standard term,bycatch of protected species
+bycatch of sharks etc,WAN,bycatch of sharks,,bycatch of sharks
+charter business,WAN,charter business opportunity,to be more specific and quantifiable,charter business opportunity
+charter CPUE,WAN,chater fishing efficiency,use single standard term; replace CPUE with efficiency throughout,chater fishing efficiency
 charter demand,VB,demand for charter trips,use single standard term,demand for charter trips
+charter effort,WAN,,,charter effort
 charter landings,VB,,,charter landings
+charter landings,VB,,,charter landings
+charter landings,WAN,,,charter landings
+charter landings,WAN,,,charter landings
+coastal development,WAN,,,coastal development
+coastal development,WAN,,,coastal development
+coastal development,BFT,,,coastal development
+coastal development,BFT,,,coastal development
+commercial effort council,WAN,commercial fishing effort,use single standard term,commercial fishing effort
+commercial fishing effort,BFT,,,commercial fishing effort
+commercial fishing effort,BFT,,,commercial fishing effort
 commercial fishing effort,VB,,,commercial fishing effort
+commercial fishing effort,VB,,,commercial fishing effort
+community conflict,WAN,,,community conflict
 concentration of dolphin,VB,,,concentration of dolphin
 consumer demand,VB,demand for charter trips,this is essentially the same as consumer demand in the way it appears in the model,demand for charter trips
 consumer satisfaction,VB,customer satisfaction,use single standard term,customer satisfaction
-desirability for eating,VB,desirability for meat,use single standard term,desirability for meat
-distance from fish,VB,,,distance from fish
-dolphin population abundance,VB,total dolphin population abundance,clarify that this is stock abundance not local abundance,total dolphin population abundance
-eddies,VB,Gulf Stream eddies,use single standard term,Gulf Stream eddies
-fishing efficiency,VB,,,fishing efficiency
-Gulf Stream,VB,Gulf Stream position ,this is likely the aspect of GS that affects the Sargassum,Gulf Stream position 
-number of charter trips,VB,,,number of charter trips
-pictures on social media,VB,social media presence,use single standard term,social media presence
-private angler effort,VB,private recreational effort,use single standard term,private recreational effort
-private landings,VB,,,private landings
-seasonal migrations,VB,seasonal migration,use single standard term,seasonal migration
-shark abundance,VB,,,shark abundance
-surface objects,VB,presence of surface objects,to be more specific and quantifiable,presence of surface objects
-temperature breaks,VB,,,temperature breaks
-total local dolphin landings,VB,,,total local dolphin landings
-tournaments,VB,number of tournaments,to be more specific and quantifiable,number of tournaments
-trip activity excitement,VB,,,trip activity excitement
-tropical weather systems,VB,,,tropical weather systems
-tuna and marlin fishing opportunity,VB,marlin availability,tuna availability appeared elsewhere so break it out here separately,marlin availability
-tuna and marlin fishing opportunity,VB,tuna availability,tuna availability appeared elsewhere so break it out here separately,tuna availability
-use of circle hooks,VB,,,use of circle hooks
-water clarity,VB,,,water clarity
-water temperature,VB,temperature,use single standard term,temperature
-weather,VB,,,weather
-wind,VB,wind strength,to be more specific and quantifiable,wind strength
-abundance in other regions,WAN,total dolphin population abundance,use single standard term,abundance in other regions
-accountability,WAN,,,accountability
-bag limits,WAN,,,bag limits
-blueline tilefish closure,WAN,,,blueline tilefish closure
-bycatch of sharks etc,WAN,bycatch of sharks,,bycatch of sharks
-catch per unit effort,WAN,fishing efficiency,standardize term used elsewhere,fishing efficiency
-charter business,WAN,charter business opportunity,to be more specific and quantifiable,charter business opportunity
-charter CPUE,WAN,chater fishing efficiency,use single standard term; replace CPUE with efficiency throughout,chater fishing efficiency
-charter effort,WAN,,,charter effort
-charter landings,WAN,,,charter landings
-coastal development,WAN,,,coastal development
-commercial catch,WAN,commercial landings,use single standard term,commercial landings
-commercial effort council,WAN,commercial fishing effort,use single standard term,commercial fishing effort
+cost of bait,BFT,,,cost of bait
+council boat catch,WAN,council boat landings,standardize term catch to landings,council boat landings
+Council boat CPUE,WAN,council boat efficiency,standardize CPUE to efficiency,council boat efficiency
+currents,BFT,,,currents
+customer satisfaction,BFT,,,customer satisfaction
 demand for charter trips,WAN,,,demand for charter trips
+demand for charter trips,WAN,,,demand for charter trips
+demand for charter trips,BFT,,,demand for charter trips
+demand for charter trips,BFT,,,demand for charter trips
+desirability for eating,VB,desirability for meat,use single standard term,desirability for meat
 different soc patterns of areas of SE,WAN,,,different soc patterns of areas of SE
+displacement from other fisheries,BFT,,,displacement from other fisheries
+distance from fish,VB,,,distance from fish
+dolphin catchability,BFT,,,dolphin catchability
+dolphin population abundance,VB,total dolphin population abundance,clarify that this is stock abundance not local abundance,total dolphin population abundance
+dolphin population abundance,VB,total dolphin population abundance,clarify that this is stock abundance not local abundance,total dolphin population abundance
+dolphin population abundance,WAN,total dolphin population abundance,clarify that this is stock abundance not local abundance,total dolphin population abundance
 dolphin population abundance,WAN,total dolphin population abundance,clarify that this is stock abundance not local abundance,total dolphin population abundance
 economic growth,WAN,strength of economy,use single standard term,strength of economy
+economic impact of NC charter industry,BFT,,,economic impact of NC charter industry
+economy,BFT,strength of economy,to be more specific and quantifiable,strength of economy
+eddies,VB,Gulf Stream eddies,use single standard term,Gulf Stream eddies
+effort shift to trigger and beeliner,BFT,,,effort shift to trigger and beeliner
+fishing efficiency,VB,,,fishing efficiency
+fishing effort Gulf of Guinea,BFT,international fishing effort,make the term more generalizable,international fishing effort
 fishing power,WAN,technology,use single standard term; power was being discussed in the context of overall technological advances leading to increased effort,technology
 FL abundance,WAN,,,FL abundance
+fuel price,BFT,,,fuel price
 gear and hook restrictions,WAN,,,gear and hook restrictions
 Gulf Stream,WAN,Gulf Stream position ,this is likely the aspect of GS that affects the Sargassum,Gulf Stream position 
+Gulf Stream,WAN,Gulf Stream position ,this is likely the aspect of GS that affects the Sargassum,Gulf Stream position 
+Gulf Stream,VB,Gulf Stream position ,this is likely the aspect of GS that affects the Sargassum,Gulf Stream position 
+Gulf Stream,VB,Gulf Stream position ,this is likely the aspect of GS that affects the Sargassum,Gulf Stream position 
+Gulf Stream eddies,BFT,,,Gulf Stream eddies
+hurricanes,BFT,tropical weather systems,term is used elsewhere,tropical weather systems
 import price,WAN,,,import price
 inability to manage,WAN,robustness of management,take the directionality out of the term,robustness of management
 international bycatch,WAN,bycatch standards,in the context being discussed this is a better term; reference was to factors causing lower prices of international seafood,bycatch standards
 international effort,WAN,international fishing effort,use single standard term,international fishing effort
+international supply,BFT,,,international supply
 lack of data on private recreational catch,WAN,availability of data on private recreational catch,take the directionality out of the term,availability of data on private recreational catch
 lack of regulation,WAN,level of regulations,take the directionality out of the term,level of regulations
 large dolphin local abundance,WAN,local large dolphin abundance,use single standard term,local large dolphin abundance
+level of regulations,BFT,,,level of regulations
 local business profit,WAN,profits,standardize term used elsewhere,profits
 local dolphin abundance,WAN,,,local dolphin abundance
+local dolphin and wahoo abundance,BFT,local dolphin abundance,these are separated elsewhere so separate here,local dolphin abundance
+local dolphin and wahoo abundance,BFT,local wahoo abundance,these are separated elsewhere so separate here,local wahoo abundance
 local wahoo abundance,WAN,,,local wahoo abundance
+low entry costs,BFT,entry costs,remove directionality,entry costs
 migratory patterns,WAN,seasonal migration,use single standard term,seasonal migration
 mobility of recreational anglers,WAN,,,mobility of recreational anglers
 no stock assessment,WAN,ability to assess stock,take the directionality out of the term,ability to assess stock
-number of council boats,WAN,,,number of council boats
+number of charter trips,VB,,,number of charter trips
+number of council  boats,WAN,,,number of council  boats
+number of local fishermen,BFT,number of private recreational fishermen,local fishermen were referred to as private recreational elsewhere,number of private recreational fishermen
+number of longline fishermen,BFT,,,number of longline fishermen
+number of recreational fishermen,BFT,,,number of recreational fishermen
+pictures on social media,VB,social media presence,use single standard term,social media presence
 PLL catch,WAN,PLL landings,use single standard term; replace catch with landings,PLL landings
+PLL CPUE,WAN,PLL fleet efficiency,standardize CPUE to efficiency,PLL fleet efficiency
 PLL effort,WAN,,,PLL effort
+presence of large sargassum mats,BFT,presence of Sargassum mats,use single standard term,presence of Sargassum mats
+price of dolphin,BFT,,,price of dolphin
+private angler effort,VB,private recreational effort,use single standard term,private recreational effort
+private landings,VB,,,private landings
 private recreational effort,WAN,,,private recreational effort
+profits,BFT,,,profits
 propaganda,WAN,influence of public opinion,better term to describe? ,influence of public opinion
 quality of information,WAN,,,quality of information
+range of recreational fishing,BFT,,,range of recreational fishing
 range shifts,WAN,,,range shifts
+recreational fishing effort on dolphin and wahoo,BFT,recreational fishing effort,make more generalizable but specify if effort is only on one species,recreational fishing effort
+recreational landings,BFT,,,recreational landings
 regulation level,WAN,level of regulations,use single standard term,level of regulations
 regulations,WAN,regulations on sharks,to be more specific and quantifiable,regulations on sharks
 regulations on bait,WAN,,,regulations on bait
+risk,BFT,risk of low catch,to be more specific in the context in which the term was discussed,risk of low catch
 sargassum habitat,WAN,presence of Sargassum mats,use single standard term,presence of Sargassum mats
 seafood imports,WAN,,,seafood imports
 seafood supply,WAN,,,seafood supply
+season length for YFT,BFT,,,season length for YFT
 seasonal changes,WAN,,,seasonal changes
+seasonal migration,BFT,,,seasonal migration
+seasonal migrations,VB,seasonal migration,use single standard term,seasonal migration
+sewage regulation,BFT,strength of sewage regulations,to be more specific and quantifiable,strength of sewage regulations
+shark abundance,VB,,,shark abundance
 sharks,WAN,shark abundance,specify aspect of sharks that is driving CPUE,shark abundance
+size and bag limits,BFT,size limits,these are separated elsewhere so separate here,size limits
+size and bag limits,BFT,bag limits,these are separated elsewhere so separate here,bag limits
 social media,WAN,social media presence,use single standard term,social media presence
+surface objects,VB,presence of surface objects,to be more specific and quantifiable,presence of surface objects
+tastiness and desirability,BFT,desirability for meat,use single standard term,desirability for meat
+technology,BFT,,,technology
 temperature,WAN,,,temperature
+temperature breaks,BFT,,,temperature breaks
+temperature breaks,BFT,,,temperature breaks
+temperature breaks,VB,,,temperature breaks
+temperature breaks,VB,,,temperature breaks
+total local dolphin landings,VB,,,total local dolphin landings
+tourist demand for meat,BFT,,,tourist demand for meat
+tournaments,BFT,number of tournaments,to be more specific and quantifiable,number of tournaments
+tournaments,BFT,number of tournaments,to be more specific and quantifiable,number of tournaments
+tournaments,BFT,number of tournaments,to be more specific and quantifiable,number of tournaments
 tournaments,WAN,number of tournaments,qualify which aspect,number of tournaments
+tournaments,WAN,number of tournaments,qualify which aspect,number of tournaments
+tournaments,WAN,number of tournaments,qualify which aspect,number of tournaments
+tournaments,VB,number of tournaments,to be more specific and quantifiable,number of tournaments
+tournaments,VB,number of tournaments,to be more specific and quantifiable,number of tournaments
+tournaments,VB,number of tournaments,to be more specific and quantifiable,number of tournaments
+trip activity excitement,VB,,,trip activity excitement
+tropical weather systems,VB,,,tropical weather systems
 tropical weather systems,WAN,,,tropical weather systems
 trust and buy in,WAN,trust in management,use single standard term,trust in management
+tuna and marlin fishing opportunity,VB,marlin availability,tuna availability appeared elsewhere so break it out here separately,marlin availability
+tuna and marlin fishing opportunity,VB,tuna availability,tuna availability appeared elsewhere so break it out here separately,tuna availability
 tuna availability,WAN,,,tuna availability
 unreported catch,WAN,,,unreported catch
 unreported sales,WAN,,,unreported sales
+urban access to coast,BFT,,,urban access to coast
+use of circle hooks,VB,,,use of circle hooks
+wahoo catchability,BFT,,,wahoo catchability
+water clarity,VB,,,water clarity
+water temperature,VB,temperature,use single standard term,temperature
+weather,VB,,,weather
+weather,VB,,,weather
 weather,WAN,,,weather
-community conflict,WAN,,,community conflict
+weather,WAN,,,weather
+wind,VB,wind strength,to be more specific and quantifiable,wind strength
+winds,BFT,wind strength,to be more specific and quantifiable,wind strength
+YFT population size,BFT,,,YFT population size

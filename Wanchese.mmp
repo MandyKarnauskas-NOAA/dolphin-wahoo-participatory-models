@@ -12,17 +12,17 @@
 <concepts >
 <concept >
 <id ><![CDATA[116931969392]]></id>
-<name ><![CDATA[catch-per-unit-effort]]></name>
+<name ><![CDATA[PLL CPUE]]></name>
 <notes ><![CDATA[]]></notes>
 <units ><![CDATA[]]></units>
 <group ><![CDATA[3]]></group>
-<x ><![CDATA[670]]></x>
-<y ><![CDATA[72]]></y>
+<x ><![CDATA[998]]></x>
+<y ><![CDATA[377]]></y>
 <preferredState ><![CDATA[0]]></preferredState>
 <actualState ><![CDATA[0]]></actualState>
 <relationships >
 <relationship >
-<id ><![CDATA[197550357242]]></id>
+<id ><![CDATA[141854654851]]></id>
 <notes ><![CDATA[]]></notes>
 <confidence ><![CDATA[0]]></confidence>
 <influence ><![CDATA[0]]></influence>
@@ -36,8 +36,8 @@
 <notes ><![CDATA[]]></notes>
 <units ><![CDATA[]]></units>
 <group ><![CDATA[3]]></group>
-<x ><![CDATA[944]]></x>
-<y ><![CDATA[18]]></y>
+<x ><![CDATA[1096]]></x>
+<y ><![CDATA[27]]></y>
 <preferredState ><![CDATA[0]]></preferredState>
 <actualState ><![CDATA[0]]></actualState>
 <relationships >
@@ -56,8 +56,8 @@
 <notes ><![CDATA[]]></notes>
 <units ><![CDATA[]]></units>
 <group ><![CDATA[2]]></group>
-<x ><![CDATA[1187]]></x>
-<y ><![CDATA[63]]></y>
+<x ><![CDATA[1036]]></x>
+<y ><![CDATA[92]]></y>
 <preferredState ><![CDATA[0]]></preferredState>
 <actualState ><![CDATA[0]]></actualState>
 <relationships >
@@ -70,6 +70,13 @@
 </relationship>
 <relationship >
 <id ><![CDATA[140879301046]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[0]]></influence>
+<name ><![CDATA[]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[193670031571]]></id>
 <notes ><![CDATA[]]></notes>
 <confidence ><![CDATA[0]]></confidence>
 <influence ><![CDATA[0]]></influence>
@@ -92,12 +99,12 @@
 </concept>
 <concept >
 <id ><![CDATA[154218237633]]></id>
-<name ><![CDATA["propaganda"]]></name>
+<name ><![CDATA[propaganda]]></name>
 <notes ><![CDATA[]]></notes>
 <units ><![CDATA[]]></units>
 <group ><![CDATA[3]]></group>
-<x ><![CDATA[668]]></x>
-<y ><![CDATA[16]]></y>
+<x ><![CDATA[1326]]></x>
+<y ><![CDATA[29]]></y>
 <preferredState ><![CDATA[0]]></preferredState>
 <actualState ><![CDATA[0]]></actualState>
 <relationships >
@@ -163,8 +170,8 @@
 <notes ><![CDATA[]]></notes>
 <units ><![CDATA[]]></units>
 <group ><![CDATA[3]]></group>
-<x ><![CDATA[459]]></x>
-<y ><![CDATA[281]]></y>
+<x ><![CDATA[434]]></x>
+<y ><![CDATA[279]]></y>
 <preferredState ><![CDATA[0]]></preferredState>
 <actualState ><![CDATA[0]]></actualState>
 <relationships >
@@ -259,7 +266,7 @@
 </concept>
 <concept >
 <id ><![CDATA[157475107103]]></id>
-<name ><![CDATA[trust and buy-in]]></name>
+<name ><![CDATA[trust and buy in]]></name>
 <notes ><![CDATA[]]></notes>
 <units ><![CDATA[]]></units>
 <group ><![CDATA[3]]></group>
@@ -565,8 +572,8 @@
 <notes ><![CDATA[]]></notes>
 <units ><![CDATA[]]></units>
 <group ><![CDATA[3]]></group>
-<x ><![CDATA[550]]></x>
-<y ><![CDATA[144]]></y>
+<x ><![CDATA[1385]]></x>
+<y ><![CDATA[483]]></y>
 <preferredState ><![CDATA[0]]></preferredState>
 <actualState ><![CDATA[0]]></actualState>
 <relationships >
@@ -585,8 +592,8 @@
 <notes ><![CDATA[]]></notes>
 <units ><![CDATA[]]></units>
 <group ><![CDATA[3]]></group>
-<x ><![CDATA[1017]]></x>
-<y ><![CDATA[808]]></y>
+<x ><![CDATA[949]]></x>
+<y ><![CDATA[745]]></y>
 <preferredState ><![CDATA[0]]></preferredState>
 <actualState ><![CDATA[0]]></actualState>
 <relationships >
@@ -653,8 +660,8 @@
 <notes ><![CDATA[]]></notes>
 <units ><![CDATA[]]></units>
 <group ><![CDATA[3]]></group>
-<x ><![CDATA[1145]]></x>
-<y ><![CDATA[188]]></y>
+<x ><![CDATA[1137]]></x>
+<y ><![CDATA[162]]></y>
 <preferredState ><![CDATA[0]]></preferredState>
 <actualState ><![CDATA[0]]></actualState>
 <relationships >
@@ -673,8 +680,8 @@
 <notes ><![CDATA[]]></notes>
 <units ><![CDATA[]]></units>
 <group ><![CDATA[3]]></group>
-<x ><![CDATA[1131]]></x>
-<y ><![CDATA[327]]></y>
+<x ><![CDATA[1125]]></x>
+<y ><![CDATA[269]]></y>
 <preferredState ><![CDATA[0]]></preferredState>
 <actualState ><![CDATA[0]]></actualState>
 <relationships >
@@ -729,12 +736,12 @@
 </concept>
 <concept >
 <id ><![CDATA[197550357242]]></id>
-<name ><![CDATA[commercial catch]]></name>
+<name ><![CDATA[council boat catch]]></name>
 <notes ><![CDATA[]]></notes>
 <units ><![CDATA[]]></units>
 <group ><![CDATA[3]]></group>
-<x ><![CDATA[655]]></x>
-<y ><![CDATA[249]]></y>
+<x ><![CDATA[799]]></x>
+<y ><![CDATA[329]]></y>
 <preferredState ><![CDATA[0]]></preferredState>
 <actualState ><![CDATA[0]]></actualState>
 <relationships >
@@ -760,8 +767,8 @@
 <notes ><![CDATA[]]></notes>
 <units ><![CDATA[]]></units>
 <group ><![CDATA[2]]></group>
-<x ><![CDATA[917]]></x>
-<y ><![CDATA[495]]></y>
+<x ><![CDATA[931]]></x>
+<y ><![CDATA[524]]></y>
 <preferredState ><![CDATA[0]]></preferredState>
 <actualState ><![CDATA[0]]></actualState>
 <relationships >
@@ -787,8 +794,8 @@
 <notes ><![CDATA[]]></notes>
 <units ><![CDATA[]]></units>
 <group ><![CDATA[3]]></group>
-<x ><![CDATA[1007]]></x>
-<y ><![CDATA[735]]></y>
+<x ><![CDATA[912]]></x>
+<y ><![CDATA[681]]></y>
 <preferredState ><![CDATA[0]]></preferredState>
 <actualState ><![CDATA[0]]></actualState>
 <relationships >
@@ -854,8 +861,8 @@
 <notes ><![CDATA[]]></notes>
 <units ><![CDATA[]]></units>
 <group ><![CDATA[3]]></group>
-<x ><![CDATA[1052]]></x>
-<y ><![CDATA[110]]></y>
+<x ><![CDATA[878]]></x>
+<y ><![CDATA[34]]></y>
 <preferredState ><![CDATA[0]]></preferredState>
 <actualState ><![CDATA[0]]></actualState>
 <relationships >
@@ -870,12 +877,12 @@
 </concept>
 <concept >
 <id ><![CDATA[169097756355]]></id>
-<name ><![CDATA[number of council boats]]></name>
+<name ><![CDATA[number of council  boats]]></name>
 <notes ><![CDATA[]]></notes>
 <units ><![CDATA[]]></units>
 <group ><![CDATA[3]]></group>
-<x ><![CDATA[987]]></x>
-<y ><![CDATA[252]]></y>
+<x ><![CDATA[765]]></x>
+<y ><![CDATA[128]]></y>
 <preferredState ><![CDATA[0]]></preferredState>
 <actualState ><![CDATA[0]]></actualState>
 <relationships >
@@ -894,8 +901,8 @@
 <notes ><![CDATA[]]></notes>
 <units ><![CDATA[]]></units>
 <group ><![CDATA[3]]></group>
-<x ><![CDATA[904]]></x>
-<y ><![CDATA[164]]></y>
+<x ><![CDATA[669]]></x>
+<y ><![CDATA[77]]></y>
 <preferredState ><![CDATA[0]]></preferredState>
 <actualState ><![CDATA[0]]></actualState>
 <relationships >
@@ -914,8 +921,8 @@
 <notes ><![CDATA[]]></notes>
 <units ><![CDATA[]]></units>
 <group ><![CDATA[3]]></group>
-<x ><![CDATA[860]]></x>
-<y ><![CDATA[108]]></y>
+<x ><![CDATA[674]]></x>
+<y ><![CDATA[13]]></y>
 <preferredState ><![CDATA[0]]></preferredState>
 <actualState ><![CDATA[0]]></actualState>
 <relationships >
@@ -934,8 +941,8 @@
 <notes ><![CDATA[]]></notes>
 <units ><![CDATA[]]></units>
 <group ><![CDATA[3]]></group>
-<x ><![CDATA[1380]]></x>
-<y ><![CDATA[171]]></y>
+<x ><![CDATA[1378]]></x>
+<y ><![CDATA[137]]></y>
 <preferredState ><![CDATA[0]]></preferredState>
 <actualState ><![CDATA[0]]></actualState>
 <relationships >
@@ -954,8 +961,8 @@
 <notes ><![CDATA[]]></notes>
 <units ><![CDATA[]]></units>
 <group ><![CDATA[3]]></group>
-<x ><![CDATA[1414]]></x>
-<y ><![CDATA[323]]></y>
+<x ><![CDATA[1396]]></x>
+<y ><![CDATA[301]]></y>
 <preferredState ><![CDATA[0]]></preferredState>
 <actualState ><![CDATA[0]]></actualState>
 <relationships >
@@ -974,8 +981,8 @@
 <notes ><![CDATA[]]></notes>
 <units ><![CDATA[]]></units>
 <group ><![CDATA[3]]></group>
-<x ><![CDATA[1263]]></x>
-<y ><![CDATA[239]]></y>
+<x ><![CDATA[1268]]></x>
+<y ><![CDATA[211]]></y>
 <preferredState ><![CDATA[0]]></preferredState>
 <actualState ><![CDATA[0]]></actualState>
 <relationships >
@@ -994,8 +1001,8 @@
 <notes ><![CDATA[]]></notes>
 <units ><![CDATA[]]></units>
 <group ><![CDATA[3]]></group>
-<x ><![CDATA[1289]]></x>
-<y ><![CDATA[733]]></y>
+<x ><![CDATA[1118]]></x>
+<y ><![CDATA[677]]></y>
 <preferredState ><![CDATA[0]]></preferredState>
 <actualState ><![CDATA[0]]></actualState>
 <relationships >
@@ -1007,8 +1014,8 @@
 <notes ><![CDATA[]]></notes>
 <units ><![CDATA[]]></units>
 <group ><![CDATA[3]]></group>
-<x ><![CDATA[921]]></x>
-<y ><![CDATA[890]]></y>
+<x ><![CDATA[928]]></x>
+<y ><![CDATA[889]]></y>
 <preferredState ><![CDATA[0]]></preferredState>
 <actualState ><![CDATA[0]]></actualState>
 <relationships >
@@ -1020,8 +1027,8 @@
 <notes ><![CDATA[]]></notes>
 <units ><![CDATA[]]></units>
 <group ><![CDATA[3]]></group>
-<x ><![CDATA[396]]></x>
-<y ><![CDATA[94]]></y>
+<x ><![CDATA[437]]></x>
+<y ><![CDATA[102]]></y>
 <preferredState ><![CDATA[0]]></preferredState>
 <actualState ><![CDATA[0]]></actualState>
 <relationships >
@@ -1040,7 +1047,7 @@
 <notes ><![CDATA[]]></notes>
 <units ><![CDATA[]]></units>
 <group ><![CDATA[3]]></group>
-<x ><![CDATA[398]]></x>
+<x ><![CDATA[439]]></x>
 <y ><![CDATA[192]]></y>
 <preferredState ><![CDATA[0]]></preferredState>
 <actualState ><![CDATA[0]]></actualState>
@@ -1053,8 +1060,8 @@
 <notes ><![CDATA[]]></notes>
 <units ><![CDATA[]]></units>
 <group ><![CDATA[3]]></group>
-<x ><![CDATA[1279]]></x>
-<y ><![CDATA[631]]></y>
+<x ><![CDATA[1182]]></x>
+<y ><![CDATA[559]]></y>
 <preferredState ><![CDATA[0]]></preferredState>
 <actualState ><![CDATA[0]]></actualState>
 <relationships >
@@ -1076,12 +1083,12 @@
 </concept>
 <concept >
 <id ><![CDATA[160232229923]]></id>
-<name ><![CDATA[commercial effort (council)]]></name>
+<name ><![CDATA[commercial effort council]]></name>
 <notes ><![CDATA[]]></notes>
 <units ><![CDATA[]]></units>
 <group ><![CDATA[3]]></group>
-<x ><![CDATA[768]]></x>
-<y ><![CDATA[359]]></y>
+<x ><![CDATA[690]]></x>
+<y ><![CDATA[213]]></y>
 <preferredState ><![CDATA[0]]></preferredState>
 <actualState ><![CDATA[0]]></actualState>
 <relationships >
@@ -1100,8 +1107,8 @@
 <notes ><![CDATA[]]></notes>
 <units ><![CDATA[]]></units>
 <group ><![CDATA[2]]></group>
-<x ><![CDATA[1422]]></x>
-<y ><![CDATA[528]]></y>
+<x ><![CDATA[1409]]></x>
+<y ><![CDATA[568]]></y>
 <preferredState ><![CDATA[0]]></preferredState>
 <actualState ><![CDATA[0]]></actualState>
 <relationships >
@@ -1113,8 +1120,8 @@
 <notes ><![CDATA[]]></notes>
 <units ><![CDATA[]]></units>
 <group ><![CDATA[3]]></group>
-<x ><![CDATA[985]]></x>
-<y ><![CDATA[674]]></y>
+<x ><![CDATA[888]]></x>
+<y ><![CDATA[623]]></y>
 <preferredState ><![CDATA[0]]></preferredState>
 <actualState ><![CDATA[0]]></actualState>
 <relationships >
@@ -1133,18 +1140,11 @@
 <notes ><![CDATA[]]></notes>
 <units ><![CDATA[]]></units>
 <group ><![CDATA[3]]></group>
-<x ><![CDATA[1015]]></x>
-<y ><![CDATA[429]]></y>
+<x ><![CDATA[1155]]></x>
+<y ><![CDATA[471]]></y>
 <preferredState ><![CDATA[0]]></preferredState>
 <actualState ><![CDATA[0]]></actualState>
 <relationships >
-<relationship >
-<id ><![CDATA[141854654851]]></id>
-<notes ><![CDATA[]]></notes>
-<confidence ><![CDATA[0]]></confidence>
-<influence ><![CDATA[0]]></influence>
-<name ><![CDATA[]]></name>
-</relationship>
 <relationship >
 <id ><![CDATA[166378232321]]></id>
 <notes ><![CDATA[]]></notes>
@@ -1180,8 +1180,8 @@
 <notes ><![CDATA[]]></notes>
 <units ><![CDATA[]]></units>
 <group ><![CDATA[2]]></group>
-<x ><![CDATA[1320]]></x>
-<y ><![CDATA[435]]></y>
+<x ><![CDATA[1299]]></x>
+<y ><![CDATA[410]]></y>
 <preferredState ><![CDATA[0]]></preferredState>
 <actualState ><![CDATA[0]]></actualState>
 <relationships >
@@ -1241,13 +1241,20 @@
 <notes ><![CDATA[]]></notes>
 <units ><![CDATA[]]></units>
 <group ><![CDATA[3]]></group>
-<x ><![CDATA[1130]]></x>
-<y ><![CDATA[563]]></y>
+<x ><![CDATA[854]]></x>
+<y ><![CDATA[438]]></y>
 <preferredState ><![CDATA[0]]></preferredState>
 <actualState ><![CDATA[0]]></actualState>
 <relationships >
 <relationship >
 <id ><![CDATA[150197890156]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[0]]></influence>
+<name ><![CDATA[]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[110703877867]]></id>
 <notes ><![CDATA[]]></notes>
 <confidence ><![CDATA[0]]></confidence>
 <influence ><![CDATA[0]]></influence>
@@ -1275,6 +1282,26 @@
 </relationship>
 </relationships>
 </concept>
+<concept >
+<id ><![CDATA[193670031571]]></id>
+<name ><![CDATA[Council boat CPUE]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[3]]></group>
+<x ><![CDATA[895]]></x>
+<y ><![CDATA[219]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+<relationship >
+<id ><![CDATA[197550357242]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[0]]></influence>
+<name ><![CDATA[]]></name>
+</relationship>
+</relationships>
+</concept>
 </concepts>
 <scenarios >
 <scenario >
@@ -1282,408 +1309,473 @@
 <concepts >
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[116931969392]]></id>
-<name ><![CDATA[catch-per-unit-effort]]></name>
+<name ><![CDATA[PLL CPUE]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[164073023588]]></id>
 <name ><![CDATA[regulations]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[127088676371]]></id>
 <name ><![CDATA[sharks]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[111723367997]]></id>
 <name ><![CDATA[local business profit]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[154218237633]]></id>
-<name ><![CDATA["propaganda"]]></name>
+<name ><![CDATA[propaganda]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[146498426124]]></id>
 <name ><![CDATA[migratory patterns]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[149075000284]]></id>
 <name ><![CDATA[range shifts]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[118163147064]]></id>
 <name ><![CDATA[tournaments]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[198704583013]]></id>
 <name ><![CDATA[sargassum habitat]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[143091459179]]></id>
 <name ><![CDATA[local wahoo abundance]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[131344862489]]></id>
 <name ><![CDATA[accountability]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[102201257511]]></id>
 <name ><![CDATA[different soc patterns of areas of SE]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[157475107103]]></id>
 <name ><![CDATA[trust and buy-in]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[117556632925]]></id>
 <name ><![CDATA[weather]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[198680339553]]></id>
 <name ><![CDATA[Gulf Stream]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[120183791517]]></id>
 <name ><![CDATA[temperature]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[127388209838]]></id>
 <name ><![CDATA[no stock assessment]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[176534794719]]></id>
 <name ><![CDATA[seasonal changes]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[135326692614]]></id>
 <name ><![CDATA[international effort]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[160591954910]]></id>
 <name ><![CDATA[unreported catch]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[105770512774]]></id>
 <name ><![CDATA[international bycatch]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[157655990377]]></id>
 <name ><![CDATA[import price]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[140626023339]]></id>
 <name ><![CDATA[lack of data on private recreational catch]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[148426134185]]></id>
 <name ><![CDATA[local dolphin abundance]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
-<id ><![CDATA[155441198510]]></id>
-<name ><![CDATA[fishing power]]></name>
-<preferredState ><![CDATA[0]]></preferredState>
-</concept>
-<concept >
-<selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[199618374381]]></id>
 <name ><![CDATA[inability to manage]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[153965470973]]></id>
 <name ><![CDATA[regulations on bait]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[167084971537]]></id>
 <name ><![CDATA[social media]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[119347644087]]></id>
 <name ><![CDATA[private recreational effort]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[140879301046]]></id>
 <name ><![CDATA[charter CPUE]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[138749565456]]></id>
 <name ><![CDATA[charter landings]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[154489575508]]></id>
 <name ><![CDATA[abundance in other regions]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[175477959589]]></id>
 <name ><![CDATA[FL abundance]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[197550357242]]></id>
-<name ><![CDATA[commercial catch]]></name>
+<name ><![CDATA[council boat catch]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[150197890156]]></id>
 <name ><![CDATA[large dolphin local abundance]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[122853720019]]></id>
 <name ><![CDATA[economic growth]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[197295784818]]></id>
 <name ><![CDATA[lack of regulation]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[179636891859]]></id>
 <name ><![CDATA[mobility of recreational anglers]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[160983176192]]></id>
 <name ><![CDATA[blueline tilefish closure]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[169097756355]]></id>
-<name ><![CDATA[number of council boats]]></name>
+<name ><![CDATA[number of council  boats]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[137892054643]]></id>
 <name ><![CDATA[regulation level]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[156142282324]]></id>
 <name ><![CDATA[quality of information]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[186612010027]]></id>
 <name ><![CDATA[bag limits]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[188798814820]]></id>
 <name ><![CDATA[demand for charter trips]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[192917071682]]></id>
 <name ><![CDATA[charter effort]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[107935143253]]></id>
 <name ><![CDATA[charter business]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[124033853274]]></id>
 <name ><![CDATA[community conflict]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[138996726148]]></id>
 <name ><![CDATA[seafood imports]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[110703877867]]></id>
 <name ><![CDATA[seafood supply]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[187427957280]]></id>
 <name ><![CDATA[PLL effort]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[160232229923]]></id>
-<name ><![CDATA[commercial effort (council)]]></name>
+<name ><![CDATA[commercial effort council]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[166378232321]]></id>
 <name ><![CDATA[bycatch of sharks etc]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[130110230149]]></id>
 <name ><![CDATA[coastal development]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[160743532811]]></id>
 <name ><![CDATA[gear and hook restrictions]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[133581570622]]></id>
 <name ><![CDATA[unreported sales]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[116257366797]]></id>
 <name ><![CDATA[tuna availability]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
-<influence ><![CDATA[]]></influence>
+<influence ><![CDATA[0]]></influence>
 <id ><![CDATA[193584618347]]></id>
 <name ><![CDATA[dolphin population abundance]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
+<actualState />
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[0]]></influence>
+<id ><![CDATA[141854654851]]></id>
+<name ><![CDATA[PLL catch]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState />
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[0]]></influence>
+<id ><![CDATA[111653069567]]></id>
+<name ><![CDATA[fishing power]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState />
 </concept>
 <concept >
 <selected ><![CDATA[true]]></selected>
 <influence ><![CDATA[]]></influence>
-<id ><![CDATA[141854654851]]></id>
-<name ><![CDATA[PLL catch]]></name>
+<id ><![CDATA[193670031571]]></id>
+<name ><![CDATA[Council boat CPUE]]></name>
 <preferredState ><![CDATA[0]]></preferredState>
 </concept>
 </concepts>

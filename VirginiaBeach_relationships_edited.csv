@@ -1,4 +1,5 @@
 influences,isInfluenced,rel,description
+?,dolphin population abundance,0,NA
 availability of large gaffer dolphin,fishing efficiency,0,dolphin can only be caught when they are locally available at certain times of year
 availability of small dolphin,fishing efficiency,0,dolphin can only be caught when they are locally available at certain times of year
 bait concentration,availability of large gaffer dolphin,0,bait concentrations are what draw dolphin to the weedlines
@@ -44,4 +45,3 @@ water temperature,seasonal migrations,0,seasonal migrations of dolphin are large
 water temperature,tuna and marlin fishing opportunity,0,tuna and marlin are locally available for capture at certain times of the year driven by water temperature
 weather,private angler effort,0,bad weather makes it difficult to go fishing and reduces private angler effort
 wind,surface objects,0,strong winds break up convergence zones and Sargassum lines
-X ,dolphin population abundance,0,the factors driving the total dolphin abundance at the population scale are unknown

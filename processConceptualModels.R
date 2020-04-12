@@ -111,6 +111,22 @@ write.table(d, file="all_terms.csv", append=F, quote=F, row.names=F, col.names=T
 # 
 # save final as "all_terms_edited.csv" 
 #
+###   Need to merge updated terms, if above steps are changed!
+
+t0 <- read.table("all_terms.csv", header=T, sep=",", stringsAsFactors = F)
+te <- read.table("all_terms_edited.csv", header=T, sep=",", stringsAsFactors = F)
+
+dim(te)
+dim(t0)
+
+t1 <- merge(te, t0, by="term", all.y=TRUE)
+dim(t1)
+
+t1 <- t1[1:5]
+names(t1) <- names(te)
+
+write.table(t1, file="all_terms_edited.csv", append=F, quote=F, row.names=F, col.names=T, sep=",")
+
 #############################################################################
 
 #############################################################################
@@ -137,7 +153,7 @@ for (loc in sites)  {
 }
 
 #############################################################################
-# Step 8. Specify positive and negaitve relationships
+# Step 8. Specify positive and negative relationships
 
 # open "<workshopLocation>_relationships_newterm.csv" files and score "rel" column manually
 # save scored files as "<workshopLocation>_relationships_newterm_scored.csv"
