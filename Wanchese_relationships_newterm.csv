@@ -1,30 +1,29 @@
 influences,isInfluenced,rel,description
-abundance in other regions,local dolphin abundance,NA,local dolphin abundance is driven by dolphin migrating from unknown regions within the stock's domain
+total dolphin population abundance,local dolphin abundance,NA,local dolphin abundance is driven by dolphin migrating from unknown regions within the stock's domain
 accountability,robustness of management,NA,can't hold recreational sector accountable for their catch which makes it difficult to manage
 accountability,trust in management,NA,increased accountability leads to more trust and buy-in to management and data collection
 bag limits,demand for charter trips,NA,a reduction in the bag limit may affect demand for charter trips
-blueline tilefish closure,number of council boats,NA,with the closure of blueline tilefish fisheries some fishermen have moved to target dolphin
-fishing efficiency,commercial landings,NA,increased CPUE leads to increased catch if effort remains stable
-chater fishing efficiency,charter landings,NA,an increase in charter fleet CPUE will increase landings if effort is stable
+blueline tilefish closure,number of council  boats,NA,with the closure of blueline tilefish fisheries some fishermen have moved to target dolphin
+charter fishing efficiency,charter landings,NA,an increase in charter fleet CPUE will increase landings if effort is stable
 charter effort,charter landings,NA,a reduction in charter effort will reduce charter landings
 charter landings,local dolphin abundance,NA,charter landings have an impact on the local dolphin abundance
 coastal development,private recreational effort,NA,increased coastal development spurs increased private recreational effort
-commercial landings,local dolphin abundance,NA,commercial catch has an impact on the local dolphin abundance
-commercial landings,seafood supply,NA,an increase in commercial catch increases local seafood supply
-commercial fishing effort,commercial landings,NA,increased Council boat effort will increase the commercial catch
+Council boat fishing effort,council boat landings,NA,catch is a function of effort
+council boat landings,local dolphin abundance,NA,commercial catch has an impact on the local dolphin abundance
+council boat landings,seafood supply,NA,an increase in commercial catch increases local seafood supply
+council boat efficiency,council boat landings,NA,catch is a function of CPUE
 demand for charter trips,charter effort,NA,lower demand for charter trips would reduce charter effort
-different soc patterns of areas of SE,availability of data on private recreational catch,NA,
-total dolphin population abundance,abundance in other regions,NA,total dolphin population abundance is related to the abundance in unknown subregions
+XXXXrevisitXXXX,availability of data on private recreational catch,NA,
+total dolphin population abundance,total dolphin population abundance,NA,total dolphin population abundance is related to the abundance in unknown subregions
 total dolphin population abundance,FL abundance,NA,total dolphin population abundance is related to the abundance in the Florida subregion
 strength of economy,private recreational effort,NA,with increased economic growth there is more spending and more recreational effort
-technology,private recreational effort,NA,NA
+engine horsepower,private recreational effort,NA,NA
 FL abundance,local dolphin abundance,NA,local dolphin abundance is driven by dolphin migrating from Florida
 gear and hook restrictions,bycatch of sharks,NA,hook size affects bycatch of sharks
-gear and hook restrictions,fishing efficiency,NA,hook size affects CPUE
-gear and hook restrictions,PLL landings,NA,hook size affects CPUE and thus total catch
+gear and hook restrictions,PLL fleet efficiency,NA,hook size affects CPUE
 Gulf Stream position ,presence of Sargassum mats,NA,Sargassum habitat is affected by the Gulf Stream
-import price,profits,NA,local profits are lower when market prices are reduced by cheap imports
-robustness of management,level of regulations,NA,synonymous; level of ability to manage impacts level of ability to create regulations
+import price,local profits,NA,local profits are lower when market prices are reduced by cheap imports
+robustness of management,level of private recreational regulations,NA,synonymous; level of ability to manage impacts level of ability to create regulations
 bycatch standards,import price,NA,the presence of bycatch does not cause the price to be lower; perhaps replace with 'bycatch standards' so that relationship is apparent; lower standards allow cost savings and reduce price
 international fishing effort,total dolphin population abundance,NA,international fishing effort has an impact on the overall population abundance
 international fishing effort,import price,NA,with increased effort there is increased supply and the price decreases
@@ -32,9 +31,9 @@ international fishing effort,bycatch standards,NA,international fisheries have l
 international fishing effort,unreported catch,NA,increase in international effort leads to increase in unreported catch
 availability of data on private recreational catch,accountability,NA,lack of data for private rec sector reduces the accountability in the fishery
 availability of data on private recreational catch,robustness of management,NA,NA
-level of regulations,availability of data on private recreational catch,NA,if not regulated then it makes it difficult to collect data
-level of regulations,private recreational effort,NA,few regulations leads to unconstrained effort
-local large dolphin abundance,demand for charter trips,NA,NA
+level of private recreational regulations,availability of data on private recreational catch,NA,if not regulated then it makes it difficult to collect data
+level of private recreational regulations,private recreational effort,NA,few regulations leads to unconstrained effort
+local large dolphin abundance,demand for charter trips,NA,lack of large dolphin locally decreases charter trip satisfaction and demand
 local large dolphin abundance,local dolphin abundance,NA,an increase in large dolphin abundance is equivalent to an increase in total abundance
 local dolphin abundance,charter business opportunity,NA,local abundance increases opportunity for charter businesses
 local dolphin abundance,community conflict,NA,when local abundance is depleted it creates community conflict
@@ -43,32 +42,35 @@ seasonal migration,local dolphin abundance,NA,the local abundance of dolphin is 
 seasonal migration,local wahoo abundance,NA,the local abundance of wahoo is affected by their seasonal migrations
 mobility of recreational anglers,private recreational effort,NA,greater mobility of recreational anglers (e g  with trailers) allows for increased private recreational effort
 ability to assess stock,robustness of management,NA,a lack of stock assessments for dolphin and wahoo make them challenging to manage
-number of council boats,commercial fishing effort,NA,as the number of council boats increases the commercial effort will increase
+number of council  boats,Council boat fishing effort,NA,as the number of council boats increases the commercial effort will increase
 PLL landings,local large dolphin abundance,NA,PLL fishery targets large dolphin and causes local depletion
+PLL landings,seafood supply,NA,NA
+PLL fleet efficiency,PLL landings,NA,NA
 PLL effort,bycatch of sharks,NA,increased longline effort will increase bycatch of sharks and other species
 PLL effort,PLL landings,NA,increased longline effort will increase the landings
 private recreational effort,local dolphin abundance,NA,increase in private recreational effort results in decreased local dolphin abundance
 private recreational effort,local wahoo abundance,NA,increase in private recreational effort results in decreased local wahoo abundance
 private recreational effort,unreported sales,NA,increase in private recreational effort results in more opportunities for unreported sales
-influence of public opinion,regulations on sharks,NA,pressure to reduce fishing on sharks led to stronger regulations
-quality of information,level of regulations,NA,
+public information campaigns,level of regulations on sharks,NA,pressure to reduce fishing on sharks led to stronger regulations
+quality of information,level of Council boat regulations,NA,
 range shifts,seasonal migration,NA,large-scale range shifts lead to changing migration patterns; e g  fish moving further north
-level of regulations,number of council boats,NA,few regulations leads to unconstrained effort
-regulations on bait,fishing efficiency,NA,whole squid must be used and this decreases CPUE
-regulations on sharks,shark abundance,NA,stronger restrictions on shark fishing have led to increase in shark populations
+level of Council boat regulations,number of council  boats,NA,few regulations leads to unconstrained effort
+level of regulations on bait,PLL fleet efficiency,NA,whole squid must be used and this decreases CPUE
+level of regulations on sharks,shark abundance,NA,stronger restrictions on shark fishing have led to increase in shark populations
 presence of Sargassum mats,local dolphin abundance,NA,local abundance is determined by Sargassum habitat availability
 presence of Sargassum mats,local wahoo abundance,NA,local abundance is determined by Sargassum habitat availability
 seafood imports,seafood supply,NA,increased seafood imports will increase the total seafood supply
 seasonal changes,seasonal migration,NA,migrations are affected by seasonal changes; specifically temperature
-shark abundance,fishing efficiency,NA,increased shark populations lead to reduced CPUE due to depredation
-shark abundance,chater fishing efficiency,NA,increased shark populations lead to reduced CPUE due to depredation
-social media presence,charter business opportunity,NA,social media pictures generate interest and increase charter business demand
-social media presence,community conflict,NA,
-social media presence,private recreational effort,NA,social media pictures generate interest and increase private rec effort
-temperature,presence of Sargassum mats,NA,
+shark abundance,charter fishing efficiency,NA,increased shark populations lead to reduced CPUE due to depredation
+shark abundance,council boat efficiency,NA,increased shark populations lead to reduced CPUE due to depredation
+shark abundance,PLL fleet efficiency,NA,increased shark populations lead to reduced CPUE due to depredation
+impressiveness of social media photos,charter business opportunity,NA,social media pictures generate interest and increase charter business demand
+impressiveness of social media photos,community conflict,NA,
+impressiveness of social media photos,private recreational effort,NA,social media pictures generate interest and increase private rec effort
+water temperature,presence of Sargassum mats,NA,
 trust in management,community conflict,NA,a lack of trust among managers or community memebers creates conflict
 tuna availability,charter effort,NA,the availability of tuna drives the demand for charter effort in this region
-tuna availability,commercial fishing effort,NA,the availability of tuna drives Council boat effort in this region
+tuna availability,Council boat fishing effort,NA,the availability of tuna drives Council boat effort in this region
 tuna availability,PLL effort,NA,the availability of tuna drives pelagic longlining effort in this region
 unreported catch,import price,NA,unreported catch drives down the import price in the U S  
 weather,presence of Sargassum mats,NA,

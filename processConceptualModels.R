@@ -133,8 +133,11 @@ write.table(t1, file="all_terms_edited.csv", append=F, quote=F, row.names=F, col
 # Step 7. Update relationship flat file with new terminology
 
 rm(list=ls())
+setwd("C:/Users/mandy.karnauskas/Desktop/participatory_workshops/model_processing")
 
-d <- read.table("all_terms_edited.csv", header=T, sep=",", stringsAsFactors = F)
+d <- read.delim("all_terms_edited.csv", header=T, sep=",", stringsAsFactors = F)
+d$allnewterms <- d$newterm
+d$allnewterms[which(d$allnewterms=="")] <- d$term[which(d$allnewterms=="")]
 
 sites <- c("Beaufort", "Wanchese", "VirginiaBeach") 
 
@@ -159,6 +162,23 @@ for (loc in sites)  {
 # save scored files as "<workshopLocation>_relationships_newterm_scored.csv"
 
 #############################################################################
+
+d <- read.delim("Beaufort_relationships_edited.csv", header=T, sep=",", stringsAsFactors = F)
+
+fin <- data.frame(cbind(d$influences, d$isInfluenced))
+names(fin) <- c("From", "To")
+fin$Group <- 0
+fin$Type <- as.factor("U")
+fin$Pair <- 1:nrow(fin)
+
+levs <- unique(c(levels(fin$From), levels(fin$To)))
+levels(fin$From) <- levs
+levels(fin$To) <- levs
+    
+write.dia(fin, "test7.dia", width = 5, height = 1, self = F)
+
+
+
 
 #############################################################################
 # Step 9. Convert back to matrix format
@@ -186,8 +206,6 @@ for (loc in sites)  {
 # can input this back into Mental Modeler
 
 #############################################################################
-
-
 
 
 

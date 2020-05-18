@@ -63,10 +63,9 @@ for (i in 1:ncol(avdep))  {
     ks <- ksmooth(1:12, avdep[,i], "normal", bandwidth=0.75, range.x=c(1,12), n.points=96)      }
     avdepsm <- cbind(avdepsm, ks$y) } 
 
-matplot(avdepsm, type="l", lwd=lwds, lty=rep(1:2, 5), col=rainbow(10), axes=F, ylim=c(0,1.12), ylab="")
-mtext(side=2, line=1.5, "dependence on species or group", cex=1.2)
+matplot(avdepsm, type="l", lwd=lwds, lty=rep(1:2, 5), col=rainbow(10), axes=F, ylim=c(0,1.3), ylab="")
+mtext(side=2, line=1.5, "dependence on species or group                   ", cex=1.2)
 axis(1, at=seq(4, 96, 8), month.abb, cex.axis=1.2); box()
 axis(2, at=c(0, 0.1, 1), lab=c("none", "low", "high"), las=2, cex.axis=1.2)
-legend("top", colnames(avdep), lwd=lwds, lty=rep(1:2, 5), bty="n", col=rainbow(10), ncol=5, x.intersp=0.6, cex=1.1)
-legend(-1, 1.01, c("n = 1", "n = 3", "n = 6"), lwd=c(1.5, 4.5, 9), y.intersp = 0.9)
-
+legend("topleft", colnames(avdep), lwd=lwds, lty=rep(1:2, 5), bty="n", col=rainbow(10), ncol=2, x.intersp=1, cex=1.1)
+legend(80, 1.3, c("n = 1", "n = 3", "n = 6"), lwd=c(1.5, 4.5, 9), y.intersp = 1.1)
