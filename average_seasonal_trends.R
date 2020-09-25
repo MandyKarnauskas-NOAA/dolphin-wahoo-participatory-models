@@ -6,14 +6,24 @@ setwd("C:/Users/mandy.karnauskas/Desktop/participatory_workshops/stakeholder_plo
 library(pals)
 library(yarrr)
 
-# check raw data -------------------------------------------------
+# subset list ----------------------------------------------------
+
 lis <- dir()
 length(lis)
 
-par(mfrow = c(6,4), mex = 0.3)
-for (i in 1:length(lis))  { 
-    d <- read.table(lis[i], sep=",", header=F)
-    plot(NA, xlim = c(0, 13), ylim = c(0,15), main = substr(lis[i], 1, nchar(lis[i])-4), cex.main = 0.8)
+lis2 <- lis[grep("charter", lis)]
+#lis2 <- lis[grep("historical_comm", lis)]
+#lis2 <- lis[grep("present_comm", lis)]
+
+lis2 <- lis2[grep("VB", lis2)]
+lis2
+
+# check raw data -------------------------------------------------
+
+par(mfrow = c(3,2), mex = 0.3)
+for (i in 1:length(lis2))  { 
+    d <- read.table(lis2[i], sep=",", header=F)
+    plot(NA, xlim = c(0, 13), ylim = c(0,15), main = substr(lis2[i], 1, nchar(lis2[i])-3), cex.main = 0.8)
     cols <- 1
     for (j in unique(d$V3))  { 
         lines(d$V1[which(d$V3 == j)], d$V2[which(d$V3 == j)], lwd = 2, col = cols)
@@ -22,15 +32,6 @@ for (i in 1:length(lis))  {
         }
     legend("top", as.character(unique(d[,3])), lwd = 2, col = 1:cols, ncol = 2, cex = 0.8)
     }
-
-# subset list - present charter fleet ------------------------------
-
-lis2 <- lis[grep("charter", lis)]
-#lis2 <- lis[grep("historical_comm", lis)]
-#lis2 <- lis[grep("present_comm", lis)]
-
-lis2 <- lis2[grep("Wanchese", lis2)]
-lis2
 
 # concatenate all data into single matrix --------------------------
 alldat <- data.frame(matrix(ncol = 4, nrow = 0))
@@ -55,9 +56,6 @@ for (i in 1:length(lis2))  {
     print(table(alldat$V1, alldat$V3))
     }
     
-apply((table(alldat$V1, alldat$V3)), 2, mean)
-apply((table(alldat$V1, alldat$V3)), 2, sd)
-
 names(alldat) <- c("mon", "orig", "spp", "scal", "ID")
 head(alldat)
 colMeans(table(alldat$mon, alldat$spp))
@@ -68,30 +66,34 @@ plot(alldat$orig, alldat$scal, col = alldat$ID)  # check scaling
 alldat$spp <- as.character(alldat$spp)
 unique(alldat$spp)
 
-tuna_lis <- c("BFT", "blackfin tuna", "tuna", "yellowfin tuna")
+tuna_lis <- c("BFT", "blackfin tuna", "tuna", "yellowfin tuna", "bluefin tuna")
 sngr_lis <- c("grouper", "bottomfish", "snapper-grouper")
 mahi_lis <- c("dolphin", "mahi")
-king_lis <- c("kingfish", "KMK", "king mackerel")
+king_lis <- c("KMK", "king mackerel")
 bill_lis <- c("billfish", "marlin", "blue marlin", "white marlin")
-mack_lis <- c("spanish mackerel; bluefish")
 shar_lis <- c("mako", "sharks")
 insh_lis <- c("inshore", "striper")
+crok_lis <- c("kingfish", "seamullet", "croaker")
 
 alldat$sp2 <- alldat$spp
 alldat$sp2[which(alldat$spp %in% tuna_lis)] <- "tunas"
 alldat$sp2[which(alldat$spp %in% sngr_lis)] <- "snapper-grouper"
 alldat$sp2[which(alldat$spp %in% mahi_lis)] <- "mahi"
-alldat$sp2[which(alldat$spp %in% king_lis)] <- "kingfish"
+alldat$sp2[which(alldat$spp %in% king_lis)] <- "king mackerel"
 alldat$sp2[which(alldat$spp %in% bill_lis)] <- "billfishes"
-alldat$sp2[which(alldat$spp %in% mack_lis)] <- "mackerels"
 alldat$sp2[which(alldat$spp %in% shar_lis)] <- "sharks"
 alldat$sp2[which(alldat$spp %in% insh_lis)] <- "inshore spp"
+alldat$sp2[which(alldat$spp %in% crok_lis)] <- "croakers"
 
+table(alldat$spp, alldat$sp2)
 
 # sort list and create plot settings -----------------------------
-table(alldat$spp, alldat$sp2)
+
 sort(table(alldat$sp2), decreasing = T)
 relis <- names(sort(table(alldat$sp2), decreasing = T))
+a <- match(c("mahi", "wahoo"), relis)
+relis <- c(relis[a], relis[-a])
+relis
 alldat$sp2 <- factor(alldat$sp2, levels = relis)
 unique(alldat$sp2)
 
@@ -101,11 +103,12 @@ lwds
 cols <- cols25(25)
 relis
 
-sporder <- c("kingfish", "wahoo", "snapper-grouper", "billfishes", "sharks", "mahi", "tunas", 
-             "bluefish", "spanish mackerel", "tilefish", "swordfish", "shrimp")
+sporder <- c("croakers", "wahoo", "snapper-grouper", "billfishes", "sharks", "mahi", "tunas", 
+             "bluefish", "spanish mackerel", "tilefish", "swordfish", "shrimp", "king mackerel")
 
 
 # barplot of average dependence ----------------------------------
+par(mfrow = c(1, 1))
 avdep <- tapply(alldat$scal, list(alldat$mon, alldat$sp2), mean)
 avdep
 barplot(t(avdep), legend.text = colnames(avdep), args.legend = list(x = "topleft"), col = rainbow(11))
@@ -134,21 +137,24 @@ for (j in 1:length(relis)) {
             border = NA, col = transparent(cols[j], trans.val = 0.5))
     }
 
-# plot mean +/- 1 S.E. of species with n > 3 ------------------------------------
+# plot mean +/- 1 S.E. of species with n > 2 ------------------------------------
 
-li <- max(which(table(alldat$sp2) > 24))
-li <- max(which(table(alldat$sp2) > 12))
+#li <- which(table(alldat$sp2) > 24)
+li <- c(which(names(table(alldat$sp2)) == "mahi"),  which(table(alldat$sp2) > 12)); li
+#li <- which(table(alldat$sp2) > 12); li
 
-angles = seq(30, 180, length.out = li)
-dens <- seq(10, 20, length.out = li)
+angles = seq(30, 180, length.out = length(li)+1)
+
+png(filename=paste0("C:/Users/mandy.karnauskas/Desktop/participatory_workshops/stakeholder_plots_SA/", 
+    "VB_charter.png"), units="in", width=8.3, height=6.5, pointsize=12, res=72*4)
 
 par(mfrow = c(1, 1), mgp = c(1, 1, 0))
 
-plot(NA, axes = F, ylim = c(0, 1), xlim = c(1, 96), xlab = "", ylab = "")
-mtext(side = 2, cex = 1.2, line = 1, "dependence on species or species group")
+plot(NA, axes = F, ylim = c(0, 1.0), xlim = c(1, 96), xlab = "", ylab = "")
+mtext(side = 2, cex = 1.1, line = 1.5, "dependence on species or species group")
 axis(1, at=seq(4, 96, 8), month.abb, cex.axis=1.2); box()
 axis(2, at=c(0, 1), lab=c("low", "high"), las=2, cex.axis=1.2)
-for (j in 1:li) {
+for (j in li) {
     f <- alldat[which(alldat$sp2 == relis[j]),]
     fmean <- tapply(f$scal, f$mon, mean)
     fse <- tapply(f$scal, f$mon, sd) / sqrt(length(unique(f$ID)))
@@ -156,21 +162,30 @@ for (j in 1:li) {
     ksse <- ksmooth(1:12, fse, "normal", bandwidth=1.5, range.x=c(1,12), n.points=96)
     upper <- ksmean$y + ksse$y
     lower <- ksmean$y - ksse$y
-    lines(ksmean$y, col = cols[which(relis[j] == sporder)], lwd=2)
-    polygon(x = c(1:96, 96:1), y = c(upper, lower[96:1]), # angle = angles[j], density = dens[j], 
-            border = NA, col = transparent(cols[which(relis[j] == sporder)], trans.val = 0.95))
+    lines(ksmean$y, col = cols[which(relis[j] == sporder)], lwd=3)
+    polygon(x = c(1:96, 96:1), y = c(upper, lower[96:1]), 
+            border = NA, col = transparent(cols[which(relis[j] == sporder)], trans.val = 0.9))
+    #polygon(x = c(1:96, 96:1), y = c(upper, lower[96:1]), angle = angles[j], density = 15, 
+    #        border = NA, col = transparent(cols[which(relis[j] == sporder)], trans.val = 0.7))
 #   lines(seq(4, 96, 8), fmean)
 }
 legloc <- c(1, 1)
-#legloc <- c(70, 0.475)
-legend(x = legloc[1], y = legloc[2], ncol = 1, relis[1:li], col = cols[match(relis[1:li], sporder)], pch = NA,  
-       lwd = 2, text.col = cols[match(relis[1:li], sporder)], pt.cex = 2, bty="n")
-legend(x = legloc[1], y = legloc[2], ncol = 1, relis[1:li], 
-       col = transparent(cols[match(relis[1:li], sporder)], trans.val = 0.7), pt.cex = 2,
-       lwd = 1, lty = rep(0, li), pch = 15, text.col = cols[match(relis[1:li], sporder)], bty = "n")
+#legloc <- c(1, 1.15)
+#legloc <- c(72, 1.03)
+#legloc <- c(75, 0.475)
+#legloc <- c(75, 0.3)
+legend(x = legloc[1], y = legloc[2], ncol = 1, relis[li], col = cols[match(relis[li], sporder)], pch = NA,  
+       lwd = 3, text.col = cols[match(relis[li], sporder)], pt.cex = 2, bty="n", x.intersp = 1)
+legend(x = legloc[1], y = legloc[2], ncol = 1, relis[li], 
+       col = transparent(cols[match(relis[li], sporder)], trans.val = 0.7), pt.cex = c(0, 2, 2, 2), 
+       lwd = 1, lty = 0, pch = c(15, 15, 15, 15), text.col = cols[match(relis[li], sporder)], bty = "n", x.intersp = 1)
 
 lis2
-mtext(side = 3, line = 1, "Wanchese commercial for-hire annual species dependency", font = 2, cex = 1.2)
+mtext(side = 3, line = 1, "Virginia Beach for-hire species dependency", font = 2, cex = 1.2)
+
+dev.off()
+
+
 
 # plot smoothed curves with no SE -------------------------------
 avdepsm <- c()
